@@ -13,5 +13,3 @@ I consider myself a person who is very passionate about technology 🖱️. I be
 **TikTok:** [@cerciber](https://www.tiktok.com/@cerciber)
 
 **LinkedIn:** [cerciber](https://www.linkedin.com/in/cerciber/)
-
-**GitHub:** [cerciber](https://github.com/Cerciber)
