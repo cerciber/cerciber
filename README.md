@@ -1,17 +1,17 @@
-🙋🏻‍♂️ Hola!, soy Cerciber. 
+🙋🏻‍♂️ Hi! I'm Cerciber.
 
-Me considero una persona muy apasionada por la tecnología 🖱️. Creo que la programación tiene una gran capacidad para cambiar el mundo 🌎 y quiero ser parte de ese cambio creando productos increíbles 🛠️ que contribuyan a un mundo mas justo y equilibrado en todos los aspectos de la vida ⚖️. 
+I consider myself a person who is very passionate about technology 🖱️. I believe that programming has a great capacity to change the world 🌎 and I want to be part of that change by creating incredible products 🛠️ that contribute to a more just and balanced world in all aspects of life ⚖️.
 
-👨🏻‍💻 Me adentré en la programación desde hace mas de 8 años en donde he aprendido muchas cosas 🧠, he desarrollado videojuegos 🕹️, aplicaciones de escritorio 🖥️, aplicaciones web 🖼️ y servidores 💭. Actualmente estoy muy interesado en expandir mis habilidades de desarrollo web contribuyendo en proyectos interesantes e innovadores con **Vue.js** y **Node.js** 🌐 así como en enseñarle a otros que el software es algo fascinante, apasionante y que realmente cualquiera puede crear cosas increíbles con solo tener un pc.
+👨🏻‍💻 I got into programming for more than 8 years where I have learned many things 🧠, I have developed video games 🕹️, desktop applications 🖥️, web applications 🖼️ and servers 💭. I am currently very interested in expanding my web development skills by contributing to interesting and innovative projects with **Vue.js** and **Node.js** 🌐 as well as teaching others that software is something fascinating, exciting and that really anyone can create amazing things just by having a pc.
 
 🙇🏻‍♂️ Strive to be happy and live peacefully with you and your community!! 🤗. 
 
-**Page:** [https://cerciber.com/](https://cerciber.com/)
+**Page:** [cerciber.com](https://cerciber.com/)
 
-**Twitter:** [https://twitter.com/cerciber](https://twitter.com/cerciber)
+**Twitter:** [@cerciber](https://twitter.com/cerciber)
 
-**TikTok:** [https://www.tiktok.com/@cerciber](https://www.tiktok.com/@cerciber)
+**TikTok:** [@cerciber](https://www.tiktok.com/@cerciber)
 
-**LinkedIn:** [https://www.linkedin.com/in/cerciber/](https://www.linkedin.com/in/cerciber/)
+**LinkedIn:** [cerciber](https://www.linkedin.com/in/cerciber/)
 
-**GitHub:** [https://github.com/cerciber](https://github.com/Cerciber)
+**GitHub:** [cerciber](https://github.com/Cerciber)
