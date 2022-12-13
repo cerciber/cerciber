@@ -3,11 +3,5 @@ module.exports = defineConfig({
   transpileDependencies: true,
   publicPath: process.env.NODE_ENV === 'production'
     ? '/cerciber/'
-    : '/',
-  configureWebpack: {
-    devServer: {
-        host: 'cerciber.com',
-        port: '8080'
-    }
-  }
+    : '/'
 })
