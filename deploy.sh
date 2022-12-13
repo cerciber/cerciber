@@ -9,11 +9,14 @@ npm run build
 # navigate into the build output directory
 cd dist
 
+# if you are deploying to a custom domain
+echo 'cerciber.com' > CNAME
+
 git init
 git add -A
 git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:cerciber/cerciber.git master:gh-pages
+git push -f git@github.com:cerciber/cerciber.git main:gh-pages
 
-cd -
+cd -    
