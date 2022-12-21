@@ -8,14 +8,16 @@
         </div>
         <div class="header-nav-items">
           <ul  class="header-nav-items-ul"> 
+            <SelectMenuItem/>
           </ul>
           <ul  class="header-nav-items-ul"> 
-            
+            <SelectMenuItem :activeAux1 = "true"/>
           </ul>
           <ul  class="header-nav-items-ul"> 
-            
+            <SelectMenuItem/>
           </ul>
           <ul  class="header-nav-items-ul"> 
+            <SelectMenuItem :activeAux2 = "true"/>
           </ul>
         </div>
         <div class="header-nav-contact-me">
@@ -27,11 +29,13 @@
 
 <script>
 import Logo from './Header/Logo.vue'
+import SelectMenuItem from './Header/SelectMenuItem.vue'
 
 export default {
   name: 'headerComponent',
   components: {
-    Logo
+    Logo,
+    SelectMenuItem
   }
 }
 </script>
@@ -49,6 +53,7 @@ header {
   height: 43px;
   width: 100%;
   background-color:  var(--green1);
+  z-index: -1;
 }
 
 .header-nav {
@@ -80,7 +85,7 @@ header {
   height: 100%;
   width: 250px;
   background-color:  var(--test-color2);
-}
+} 
 
 .header-nav-items-ul {
   float: left;
@@ -88,9 +93,9 @@ header {
   width: 80px;
   margin: 0px;
   padding: 0px;
-  margin-left: 10px;
-  margin-right: 10px;
-  background-color:  var(--test-color3);
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 10px;
 }
 
 </style>
