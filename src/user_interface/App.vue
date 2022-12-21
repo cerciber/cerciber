@@ -24,10 +24,17 @@ export default {
 
 <style>
 
-/* ]Style variables */
+/* Style variables */
 :root {
   --test-color1: #24ac783d;
   --test-color2: #ac7c2485;
   --test-color3: #245aac85;
+  
+  --green1: #18AA8933;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
 }
 </style>

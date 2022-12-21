@@ -2,22 +2,37 @@
   <header>
     <div class="header-middle-block">
     </div>
-    <div class="header-content">
-      <div class="header-content-logo">
-        Cerciber
-      </div>
-      <nav class="header-content-nav">
-        <ul  class="header-content-nav-ul"> 
-					
-				</ul>
+      <nav class="header-nav">
+        <div class="header-nav-logo">
+          <Logo/>
+        </div>
+        <div class="header-nav-items">
+          <ul  class="header-nav-items-ul"> 
+          </ul>
+          <ul  class="header-nav-items-ul"> 
+            
+          </ul>
+          <ul  class="header-nav-items-ul"> 
+            
+          </ul>
+          <ul  class="header-nav-items-ul"> 
+          </ul>
+        </div>
+        <div class="header-nav-contact-me">
+          ContactMe
+        </div>
       </nav>
-    </div>
   </header>
 </template>
 
 <script>
+import Logo from './Header/Logo.vue'
+
 export default {
-  name: 'headerComponent'
+  name: 'headerComponent',
+  components: {
+    Logo
+  }
 }
 </script>
 
@@ -27,42 +42,54 @@ header {
   position: relative;
   height: 80px;
   width: 100%;
-  background-color:  var(--test-color1);
 }
 
 .header-middle-block {
   position: absolute;
-  height: 40px;
+  height: 43px;
   width: 100%;
-  background-color:  var(--test-color1);
+  background-color:  var(--green1);
 }
 
-.header-content {
-  position: absolute;
-  height: 80px;
+.header-nav {
+  float: left;
+  display: flex;
+  justify-content: center;
+  height: 100%;
   width: 100%;
-  background-color:  var(--test-color1);
 }
 
-.header-content-logo {
+.header-nav-logo {
   float: left;
-  height: 80px;
-  width: 80px;
-  background-color:  var(--test-color1);
+  height: 100%;
+  min-width: 160px;
+  max-width: 160px;
 }
 
-.header-content-nav {
+.header-nav-items {
   float: left;
-  height: 80px;
-  width: calc(100% - 80px);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.header-nav-contact-me {
+  float: left;
+  height: 100%;
+  width: 250px;
   background-color:  var(--test-color2);
 }
 
-.header-content-nav-ul {
-  height: 80px;
+.header-nav-items-ul {
+  float: left;
+  height: 100%;
   width: 80px;
   margin: 0px;
   padding: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
   background-color:  var(--test-color3);
 }
 
