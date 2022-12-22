@@ -20,8 +20,8 @@ export default {
       default: false
     },
     contentText: {
-      type: Boolean,
-      default: false
+      type: String,
+      default: ""
     },
   }
 }

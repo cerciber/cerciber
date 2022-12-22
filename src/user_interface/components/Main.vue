@@ -1,6 +1,6 @@
 <template>
   <main>
-
+    
   </main>
 </template>
 
@@ -11,4 +11,13 @@ export default {
 </script>
 
 <style scoped>
+
+main {
+  position: absolute;
+  z-index: -2;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+}
+
 </style>

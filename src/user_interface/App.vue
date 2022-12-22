@@ -27,7 +27,7 @@ export default {
 /* Style variables */
 :root {
 
-  --green-back-bar: #18AA8922;
+  --green-back-bar: #18aa883b;
   --green-back-sphere: #18aa880a;
   --green-degrade1: rgba(24,170,137,1);
   --green-degrade2: rgba(118,199,147,1);

@@ -4,7 +4,6 @@
     <div class="header-back-sphere header-back-sphere1"></div>
     <div class="header-back-sphere header-back-sphere2"></div>
     <div class="header-back-sphere header-back-sphere3"></div>
-    <div class="header-middle-block"></div>
     <nav class="header-nav">
       <div class="header-nav-logo">
         <Logo/>
