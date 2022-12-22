@@ -1,6 +1,5 @@
 <template>
   <div>
-    WhoAmI
   </div>
 </template>
 
@@ -11,4 +10,5 @@ export default {
 </script>
 
 <style scoped>
+
 </style>

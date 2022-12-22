@@ -63,11 +63,43 @@ export default {
   --degrade2: var(--green-degrade2);
   --button-back-1: #313E50;
   --text-1: #ffffff;
+  --text-2: #313E50;
 
 }
 
 body {
   margin: 0px;
   padding: 0px;
+  overflow: hidden;
 }
+
+h1 {
+  font-family: 'Lato';
+  font-size: 40px;
+  font-weight: 400;
+  margin: 0px;
+  color: var(--text-2);
+}
+
+h2 {
+  font-family: 'Lato';
+  font-size: 27px;
+  font-weight: 400;
+  margin: 0px;
+  color: var(--text-2);
+}
+
+h2 b {
+  font-family: 'Lato';
+  font-size: 27px;
+  font-weight: 900;
+}
+
+p {
+  font-family: 'Montserrat';
+  margin: 0px;
+  font-weight: 500;
+  color: var(--text-2);
+}
+
 </style>

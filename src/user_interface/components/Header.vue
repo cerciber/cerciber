@@ -62,7 +62,7 @@ header {
 
 .header-back-sphere {
   position: absolute;
-  z-index: -1;
+  z-index: -100;
   width: 800px;
 
   min-width: 800px;
@@ -79,6 +79,7 @@ header {
   background: var(--back-sphere);
 
   mask-image: url('~@/user_interface/assets/BackgroundSphere.png');
+  
 }
 
 .header-back-sphere1 {

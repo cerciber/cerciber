@@ -27,6 +27,7 @@ export default {
 
 <style scoped>
 .menu-button {
+  width: 150px;
   height: 100%;
   display: flex;
   justify-content: center; 
@@ -34,7 +35,7 @@ export default {
 }
 
 .menu-button-content{
-  width: 130px;
+  width: 150px;
   padding: 15px;
   border: none;
   border-radius: 50px;
