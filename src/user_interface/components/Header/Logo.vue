@@ -1,5 +1,5 @@
 <template>
-  <div class="logo">
+  <div class="logo" v-on:click="redirect">
     <div class="logo-mask"></div>
     <img src="../../assets/LogoText.png" class="logo-text">
   </div>
@@ -7,7 +7,12 @@
 
 <script>
 export default {
-  name: 'headerComponent'
+  name: 'headerComponent',
+  methods: {
+    redirect: function () {
+      this.$router.push('/home');
+    }
+  }
 }
 </script>
 

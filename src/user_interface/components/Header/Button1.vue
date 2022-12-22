@@ -1,6 +1,6 @@
 <template>
   <div class="menu-button">
-    <button type="button" class="menu-button-content">{{contentText}}</button>
+    <button type="button" class="menu-button-content"  v-on:click="redirect">{{contentText}}</button>
   </div>
 </template>
 
@@ -12,6 +12,15 @@ export default {
       type: String,
       default: ""
     },
+    redirectPath: {
+      type: String,
+      default: ""
+    },
+  },
+  methods: {
+    redirect: function () {
+      this.$router.push(this.redirectPath);
+    }
   }
 }
 </script>

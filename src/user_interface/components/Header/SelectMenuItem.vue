@@ -1,5 +1,5 @@
 <template>
-  <div class="select-menu-item">
+  <div class="select-menu-item" v-on:click="redirect">
     <div class="select-menu-item-background"></div>
     <div class="select-menu-item-aux1" v-show="activeAux1"></div>
     <div class="select-menu-item-aux2" v-show="activeAux2"></div>
@@ -23,6 +23,15 @@ export default {
       type: String,
       default: ""
     },
+    redirectPath: {
+      type: String,
+      default: ""
+    },
+  },
+  methods: {
+    redirect: function () {
+      this.$router.push(this.redirectPath);
+    }
   }
 }
 </script>
@@ -103,5 +112,6 @@ export default {
   font-family: 'Montserrat';
   text-transform: uppercase;
   font-size: 12px;
+  user-select: none;
 }
 </style>

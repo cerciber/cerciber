@@ -9,21 +9,21 @@
         <Logo/>
       </div>
       <div class="header-nav-items">
-        <ul  class="header-nav-items-ul"> 
-          <SelectMenuItem  :contentText = "'Quién soy'"/>
+        <ul class="header-nav-items-ul"> 
+          <SelectMenuItem  contentText = "Quién soy" redirectPath="/whoami"/>
         </ul>
-        <ul  class="header-nav-items-ul"> 
-          <SelectMenuItem  :contentText = "'Portafolio'" :activeAux1 = "true"/>
+        <ul class="header-nav-items-ul"> 
+          <SelectMenuItem  contentText = "Portafolio" redirectPath="/portfolio" :activeAux1 = "true"/>
         </ul>
-        <ul  class="header-nav-items-ul"> 
-          <SelectMenuItem  :contentText = "'CV'"/>
+        <ul class="header-nav-items-ul"> 
+          <SelectMenuItem  contentText = "CV" redirectPath="/cv"/>
         </ul>
-        <ul  class="header-nav-items-ul"> 
-          <SelectMenuItem  :contentText = "'Pilares'" :activeAux2 = "true"/>
+        <ul class="header-nav-items-ul"> 
+          <SelectMenuItem  contentText = "Pilares" redirectPath="/pillars" :activeAux2 = "true"/>
         </ul>
       </div>
       <div class="header-nav-contact-me">
-        <Button1 :contentText = "'Contáctame'"/>
+        <Button1 :contentText = "'Contáctame'" redirectPath="/contactme"/>
       </div>
     </nav>
   </header>
