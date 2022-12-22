@@ -26,7 +26,7 @@ export default {
 
 .menu-button-content{
   width: 130px;
-  padding: 10px;
+  padding: 15px;
   border: none;
   border-radius: 50px;
   background-color: var(--button-back-1);

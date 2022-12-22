@@ -1,29 +1,32 @@
 <template>
   <header>
-    <div class="header-middle-block">
-    </div>
-      <nav class="header-nav">
-        <div class="header-nav-logo">
-          <Logo/>
-        </div>
-        <div class="header-nav-items">
-          <ul  class="header-nav-items-ul"> 
-            <SelectMenuItem  :contentText = "'Quién soy'"/>
-          </ul>
-          <ul  class="header-nav-items-ul"> 
-            <SelectMenuItem  :contentText = "'Portafolio'" :activeAux1 = "true"/>
-          </ul>
-          <ul  class="header-nav-items-ul"> 
-            <SelectMenuItem  :contentText = "'CV'"/>
-          </ul>
-          <ul  class="header-nav-items-ul"> 
-            <SelectMenuItem  :contentText = "'Pilares'" :activeAux2 = "true"/>
-          </ul>
-        </div>
-        <div class="header-nav-contact-me">
-          <Button1 :contentText = "'Contáctame'"/>
-        </div>
-      </nav>
+    <div class="header-middle-block"></div>
+    <div class="header-back-sphere header-back-sphere1"></div>
+    <div class="header-back-sphere header-back-sphere2"></div>
+    <div class="header-back-sphere header-back-sphere3"></div>
+    <div class="header-middle-block"></div>
+    <nav class="header-nav">
+      <div class="header-nav-logo">
+        <Logo/>
+      </div>
+      <div class="header-nav-items">
+        <ul  class="header-nav-items-ul"> 
+          <SelectMenuItem  :contentText = "'Quién soy'"/>
+        </ul>
+        <ul  class="header-nav-items-ul"> 
+          <SelectMenuItem  :contentText = "'Portafolio'" :activeAux1 = "true"/>
+        </ul>
+        <ul  class="header-nav-items-ul"> 
+          <SelectMenuItem  :contentText = "'CV'"/>
+        </ul>
+        <ul  class="header-nav-items-ul"> 
+          <SelectMenuItem  :contentText = "'Pilares'" :activeAux2 = "true"/>
+        </ul>
+      </div>
+      <div class="header-nav-contact-me">
+        <Button1 :contentText = "'Contáctame'"/>
+      </div>
+    </nav>
   </header>
 </template>
 
@@ -56,6 +59,42 @@ header {
   width: 100%;
   background-color: var(--back-bar);
   z-index: -1;
+}
+
+.header-back-sphere {
+  position: absolute;
+  z-index: -1;
+  width: 800px;
+
+  min-width: 800px;
+  max-width: 800px;
+  mask-size: 100%;
+  height: 800px;
+
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  
+  background: var(--back-sphere);
+
+  mask-image: url('~@/user_interface/assets/BackgroundSphere.png');
+}
+
+.header-back-sphere1 {
+  margin-left: -0px;
+  margin-top: -300px;
+}
+
+.header-back-sphere2 {
+  margin-left: -200px;
+  margin-top: -300px;
+}
+
+.header-back-sphere3 {
+  margin-left: -400px;
+  margin-top: -300px;
 }
 
 .header-nav {
