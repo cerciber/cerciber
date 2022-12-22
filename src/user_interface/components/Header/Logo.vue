@@ -1,6 +1,7 @@
 <template>
-  <div class="logo-image">
-    <img :src="'cerciber-logo.png'" class="logo-image-content">
+  <div class="logo">
+    <div class="logo-mask"></div>
+    <img src="../../assets/LogoText.png" class="logo-text">
   </div>
 </template>
 
@@ -11,14 +12,36 @@ export default {
 </script>
 
 <style scoped>
-.logo-image {
+.logo {
   height: 100%;
   display: flex;
   justify-content: center; 
   align-items: center;
 }
 
-.logo-image-content {
+.logo-mask {
+  position: absolute;
+  width: 130px;
+
+  min-width: 130px;
+  max-width: 130px;
+  mask-size: 100%;
+  height: 100%;
+
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  
+  background: var(--degrade1);
+  background: linear-gradient(63deg, var(--degrade1) 10%, var(--degrade2) 30%);
+
+  mask-image: url('~@/user_interface/assets/LogoMask.png');
+}
+
+.logo-text {
+  position: absolute;
   width: 130px;
 }
 </style>

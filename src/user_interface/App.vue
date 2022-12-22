@@ -26,11 +26,25 @@ export default {
 
 /* Style variables */
 :root {
-  --test-color1: #24ac783d;
-  --test-color2: #ac7c2485;
-  --test-color3: #245aac85;
-  
-  --green1: #18AA8933;
+
+  --green-back-bar: #18AA8933;
+  --green-degrade1: rgba(24,170,137,1);
+  --green-degrade2: rgba(118,199,147,1);
+
+  --blue-back-bar: #182eaa33;
+  --blue-degrade1: rgb(24, 87, 170);
+  --blue-degrade2: rgb(118, 162, 199);
+
+  --purple-back-bar: #3f18aa33;
+  --purple-degrade1: rgb(34, 24, 170);
+  --purple-degrade2: rgb(133, 118, 199);
+
+  --back-bar: var(--green-back-bar);
+  --degrade1: var(--green-degrade1);
+  --degrade2: var(--green-degrade2);
+  --button-back-1: #313E50;
+  --text-1: #ffffff;
+
 }
 
 body {

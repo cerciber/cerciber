@@ -8,20 +8,20 @@
         </div>
         <div class="header-nav-items">
           <ul  class="header-nav-items-ul"> 
-            <SelectMenuItem/>
+            <SelectMenuItem  :contentText = "'Quién soy'"/>
           </ul>
           <ul  class="header-nav-items-ul"> 
-            <SelectMenuItem :activeAux1 = "true"/>
+            <SelectMenuItem  :contentText = "'Portafolio'" :activeAux1 = "true"/>
           </ul>
           <ul  class="header-nav-items-ul"> 
-            <SelectMenuItem/>
+            <SelectMenuItem  :contentText = "'CV'"/>
           </ul>
           <ul  class="header-nav-items-ul"> 
-            <SelectMenuItem :activeAux2 = "true"/>
+            <SelectMenuItem  :contentText = "'Pilares'" :activeAux2 = "true"/>
           </ul>
         </div>
         <div class="header-nav-contact-me">
-          ContactMe
+          <Button1 :contentText = "'Contáctame'"/>
         </div>
       </nav>
   </header>
@@ -30,12 +30,14 @@
 <script>
 import Logo from './Header/Logo.vue'
 import SelectMenuItem from './Header/SelectMenuItem.vue'
+import Button1 from './Header/Button1.vue'
 
 export default {
   name: 'headerComponent',
   components: {
     Logo,
-    SelectMenuItem
+    SelectMenuItem,
+    Button1
   }
 }
 </script>
@@ -52,7 +54,7 @@ header {
   position: absolute;
   height: 43px;
   width: 100%;
-  background-color:  var(--green1);
+  background-color: var(--back-bar);
   z-index: -1;
 }
 
@@ -84,7 +86,6 @@ header {
   float: left;
   height: 100%;
   width: 250px;
-  background-color:  var(--test-color2);
 } 
 
 .header-nav-items-ul {
@@ -95,7 +96,7 @@ header {
   padding: 0px;
   margin-left: 15px;
   margin-right: 15px;
-  margin-top: 10px;
+  margin-top: 3px;
 }
 
 </style>
