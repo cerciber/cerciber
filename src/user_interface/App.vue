@@ -64,13 +64,13 @@ export default {
   --button-back-1: #313E50;
   --text-1: #ffffff;
   --text-2: #313E50;
+  --white-back: #f3f2f2;
 
 }
 
 body {
   margin: 0px;
   padding: 0px;
-  overflow: hidden;
 }
 
 h1 {

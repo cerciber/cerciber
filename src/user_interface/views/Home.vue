@@ -16,7 +16,12 @@
     <div class="home-part2">
       <div class="home-part2-back-curve">
       </div>
-      <div class="home-part2-picture-external-shpere">
+      <div class="home-part2-picture-external-shpere-space">
+        <div class="home-part2-picture-external-shpere">
+        </div>
+        <div class="home-part2-picture-internal-shpere">
+          <img src="../assets/Foto.jpg" class="home-part2-picture-photo">
+        </div>
       </div>
     </div>
   </div>
@@ -54,6 +59,7 @@ export default {
 }
 
 .home-part2 {
+  display: flex;
   width: 50%;
   height: 100%;
 }
@@ -78,12 +84,21 @@ export default {
   mask-image: url('~@/user_interface/assets/Curve.png');
 }
 
+.home-part2-picture-external-shpere-space {
+  position: absolute;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  width: 50%;
+  width: 50%;
+  height: 100%;
+}
 .home-part2-picture-external-shpere {
-  position: relative;
-  min-width: 100%;
-  max-width: 100%;
-  mask-size: 100%;
-  height: 200%;
+  position: absolute;
+  min-width: 550px;
+  max-width: 550px;
+  mask-size: 550px;
+  height: 550px;
   margin-top: 0%;
   margin-left: 0%;
 
@@ -93,10 +108,34 @@ export default {
   mask-repeat: no-repeat;
   mask-position: center;
   
-  background: var(--degrade1);
-  background: linear-gradient(63deg, var(--degrade1) 0%, var(--degrade2) 70%);
+  background: var(--back-bar);
+  mask-image: url('~@/user_interface/assets/BackgroundSphere.png');
+}
 
-  mask-image: url('~@/user_interface/assets/Curve.png');
+.home-part2-picture-internal-shpere {
+  position: absolute;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+
+  min-width: 400px;
+  max-width: 400px;
+  mask-size: 400px;
+  height: 400px;
+  margin-top: 50px;
+  margin-left: -50px;
+
+  border:10px solid var(--degrade1);    
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+}
+
+.home-part2-picture-photo {
+  min-width: 402px;
+  max-width: 402px;
+  height: 402px;
+  border-radius: 50%;
 }
 
 </style>

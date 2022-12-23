@@ -11,9 +11,6 @@
           <ExternalLink imageLogo="twitter"/>
         </ul>
         <ul  class="footer-items-ul"> 
-          <ExternalLink imageLogo="tiktok"/>
-        </ul>
-        <ul  class="footer-items-ul"> 
           <ExternalLink imageLogo="mail"/>
         </ul>
     </div>
