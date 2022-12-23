@@ -76,7 +76,7 @@ header {
   mask-repeat: no-repeat;
   mask-position: center;
   
-  background: var(--back-sphere);
+  background: var(--back-sphere2);
 
   mask-image: url('~@/user_interface/assets/BackgroundSphere.png');
   

@@ -108,7 +108,7 @@ export default {
   mask-repeat: no-repeat;
   mask-position: center;
   
-  background: var(--back-bar);
+  background: var(--back-bar2);
   mask-image: url('~@/user_interface/assets/BackgroundSphere.png');
 }
 
@@ -125,7 +125,7 @@ export default {
   margin-top: 50px;
   margin-left: -50px;
 
-  border:10px solid var(--degrade1);    
+  border:10px solid var(--degrade3);    
   border-radius:50%;
   -moz-border-radius:50%;
   -webkit-border-radius:50%;

@@ -78,8 +78,8 @@ export default {
   mask-repeat: no-repeat;
   mask-position: center;
   
-  background: var(--degrade1);
-  background: linear-gradient(0deg, var(--degrade1) 0%, var(--degrade2) 60%);
+  background: var(--degrade3);
+  background: linear-gradient(0deg, var(--degrade3) 0%, var(--degrade4) 60%);
 
   mask-image: url('~@/user_interface/assets/MenuItemtAux1.png');
 }
@@ -100,8 +100,8 @@ export default {
   mask-repeat: no-repeat;
   mask-position: center;
   
-  background: var(--degrade1);
-  background: linear-gradient(63deg, var(--degrade1) 0%, var(--degrade2) 70%);
+  background: var(--degrade3);
+  background: linear-gradient(63deg, var(--degrade3) 0%, var(--degrade4) 70%);
 
   mask-image: url('~@/user_interface/assets/MenuItemtAux2.png');
 }
