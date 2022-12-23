@@ -14,7 +14,10 @@
       </section>
     </div>
     <div class="home-part2">
-      
+      <div class="home-part2-back-curve">
+      </div>
+      <div class="home-part2-picture-external-shpere">
+      </div>
     </div>
   </div>
 </template>
@@ -45,13 +48,55 @@ export default {
   height: 100%;
 }
 
+.home-part1-section1 {
+  padding: 50px;
+  line-height : 35px;
+}
+
 .home-part2 {
   width: 50%;
   height: 100%;
 }
 
-.home-part1-section1 {
-  padding: 50px;
-  line-height : 35px;
+.home-part2-back-curve {
+  min-width: 200%;
+  max-width: 200%;
+  mask-size: 100%;
+  height: 200%;
+  margin-top: 0%;
+  margin-left: -50%;
+
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  
+  background: var(--degrade1);
+  background: linear-gradient(63deg, var(--degrade1) 0%, var(--degrade2) 70%);
+
+  mask-image: url('~@/user_interface/assets/Curve.png');
 }
+
+.home-part2-picture-external-shpere {
+  position: relative;
+  min-width: 100%;
+  max-width: 100%;
+  mask-size: 100%;
+  height: 200%;
+  margin-top: 0%;
+  margin-left: 0%;
+
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  
+  background: var(--degrade1);
+  background: linear-gradient(63deg, var(--degrade1) 0%, var(--degrade2) 70%);
+
+  mask-image: url('~@/user_interface/assets/Curve.png');
+}
+
 </style>
