@@ -6,7 +6,9 @@
       imageLogo == 'mail' ? 'external-link-mail' : 
       imageLogo == 'tiktok' ? 'external-link-tiktok' : 
       imageLogo == 'twitter' ? 'external-link-twitter' : ''
-    )">
+    )"
+    
+    v-on:click="goTo">
   </div>
 </template>
 
@@ -18,6 +20,11 @@ export default {
       type: String,
       default: ""
     },
+  },
+  methods: {
+    goTo: function () {
+      this.$emit('goTo');
+    }
   }
 }
 </script>

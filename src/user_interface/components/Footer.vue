@@ -2,16 +2,16 @@
   <footer>
     <div class="footer-items">
         <ul  class="footer-items-ul"> 
-          <ExternalLink imageLogo="linkedin"/>
+          <ExternalLink imageLogo="linkedin" v-on:goTo="goToLinkedIn"/>
         </ul>
         <ul  class="footer-items-ul"> 
-          <ExternalLink imageLogo="github"/>
+          <ExternalLink imageLogo="github" v-on:goTo="goToGitHub"/>
         </ul>
         <ul  class="footer-items-ul"> 
-          <ExternalLink imageLogo="twitter"/>
+          <ExternalLink imageLogo="twitter" v-on:goTo="goToTwitter"/>
         </ul>
         <ul  class="footer-items-ul"> 
-          <ExternalLink imageLogo="mail"/>
+          <ExternalLink imageLogo="mail" v-on:goTo="goToMail"/>
         </ul>
     </div>
   </footer>
@@ -24,6 +24,24 @@ export default {
   name: 'footerComponent',
   components: {
     ExternalLink
+  },
+  methods: {
+    goToLinkedIn: function () {
+      window.open('https://www.linkedin.com/in/cerciber/', '_blank', 'noreferrer');
+    },
+    goToGitHub: function () {
+      window.open('https://github.com/cerciber', '_blank', 'noreferrer');
+    },
+    goToTwitter: function () {
+      window.open('https://twitter.com/cerciber', '_blank', 'noreferrer');
+    },
+    goToMail: function () {
+      var emailTo = 'contact@cerciber.com'
+      var emailCC = ''
+      var emailSub = ''
+      var emailBody = ''
+      window.open('mailto:'+emailTo+'?cc='+emailCC+'&subject='+emailSub+'&body='+emailBody, '_self');
+    }
   }
 }
 </script>
