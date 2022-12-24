@@ -1,6 +1,7 @@
 <template>
   <div class="photo-shape-back-curve">
   </div>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit delectus inventore repellat, doloribus itaque consequatur odio temporibus, neque ratione consequuntur facilis quos architecto quisquam, a numquam! Maxime quisquam libero pariatur!
   <div class="photo-shape-picture-external-shpere-space">
     <div class="photo-shape-picture-external-shpere">
     </div>
@@ -42,6 +43,11 @@ export default {
 
   mask-image: url('~@/user_interface/assets/Curve.png');
   z-index: -1;
+
+  shape-outside: url('~@/user_interface/assets/Curve.png');
+  shape-image-threshold: 0.5;
+  shape-margin: 20px;
+  float: left;
 }
 
 .photo-shape-picture-external-shpere-space {

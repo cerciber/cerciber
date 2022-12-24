@@ -6,9 +6,7 @@
         <h2><b>Systems and Computing Engineer</b></h2>
         <h2><b>Web Developer</b></h2>
         <br/>
-        <article>
-          <p>🙇🏻‍♂️ Esfuérzate por ser feliz y vivir en paz contigo y tu comunidad!! 🤗.</p>
-        </article>
+        <h3>🙇🏻‍♂️ ¡Esfuérzate por ser feliz y vivir en paz contigo y tu comunidad! 🤗.</h3>
         <br/>
         <Button1 :contentText = "'Contáctame'" redirectPath="/contactme"/>
       </section>

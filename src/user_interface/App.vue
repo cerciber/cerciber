@@ -107,11 +107,21 @@ h2 b {
   font-weight: 900;
 }
 
+h3 {
+  font-family: 'Montserrat';
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-2);
+}
+
 p {
   font-family: 'Montserrat';
   margin: 0px;
+  font-size: 14px;
   font-weight: 500;
   color: var(--text-2);
+  line-height : 25px;
 }
 
 </style>
