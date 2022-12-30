@@ -6,9 +6,9 @@
         <h2><b>Systems and Computing Engineer</b></h2>
         <h2><b>Web Developer</b></h2>
         <br/>
-        <h3>🙇🏻‍♂️ ¡Esfuérzate por ser feliz y vivir en paz contigo y tu comunidad! 🤗.</h3>
+        <h3>🙇🏻‍♂️ ¡Strive to be happy and live in peace with you and your community! 🤗.</h3>
         <br/>
-        <Button1 :contentText = "'Contáctame'" redirectPath="/contactme"/>
+        <Button1 :contentText = "'Contact me'" redirectPath="/contactme"/>
       </section>
     </div>
     <div class="home-part2">

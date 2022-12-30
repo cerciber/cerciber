@@ -4,32 +4,32 @@
       <div class="pillars-content-item">
         <div class="pillars-content-item-icon">🙇🏻‍♂️</div>
         <br>
-        <p>Reflexiona y toma decisiones constantemente.</p>
+        <p>Constantly reflect and make decisions.</p>
       </div> 
       <div class="pillars-content-item">
         <div class="pillars-content-item-icon">💭</div>
         <br>
-        <p>Los consejos están para contrastarlos con nuestras ideas.</p>
+        <p>The tips are to contrast them with our ideas.</p>
       </div> 
       <div class="pillars-content-item">
         <div class="pillars-content-item-icon">👫</div>
         <br>
-        <p>Nuestra libertad llega hasta donde está la libertad de los demás.</p>
+        <p>Our freedom reaches as far as the freedom of others.</p>
       </div> 
       <div class="pillars-content-item">
         <div class="pillars-content-item-icon">📈</div>
         <br>
-        <p>Triunfas al maximizar lo que te hace único/a.</p>
+        <p>You succeed by maximizing what makes you unique.</p>
       </div> 
       <div class="pillars-content-item">
         <div class="pillars-content-item-icon">😁</div>
         <br>
-        <p>Esfuérzate por ser feliz y vivir en paz contigo y tu comunidad!!</p>
+        <p>Strive to be happy and live in peace with you and your community!!</p>
       </div> 
       <div class="pillars-content-item">
         <div class="pillars-content-item-icon">⚖️</div>
         <br>
-        <p>Dale valor a todos los aspectos de tu vida.</p>
+        <p>Give value to all aspects of your life.</p>
       </div> 
     </section>
     <div class="pillars-shape-back-curve">

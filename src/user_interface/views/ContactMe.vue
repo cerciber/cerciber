@@ -3,31 +3,31 @@
     <div class="contactme-part1">
       <section class="contactme-part1-section1">
         <article>
-          <p>🗣️ Si deseas comunicarte conmigo puedes contactarme a través de los sigientes medios 🤗.</p>
+          <p>🗣️ If you want to communicate with me you can contact me through the following means 🤗.</p>
           <br>
           <p>LinkedIn: <a href="https://www.linkedin.com/in/cerciber/" target="_blank">https://www.linkedin.com/in/cerciber</a>.</p>
           <p>GitHub: <a href="https://github.com/cerciber" target="_blank">https://github.com/cerciber</a>.</p>
           <p>Twitter: <a href="https://twitter.com/cerciber" target="_blank">https://twitter.com/cerciber</a>.</p>
           <p>Mail: <a href="mailto:contact@cerciber.com">contact@cerciber.com</a>.</p>
           <br>
-          <p>📩 También puedes dejarme un mensaje y yo me comunicaré contigo 👉🏻.</p>
+          <p>📩 You can also leave me a message and I will contact you 👉🏻.</p>
         </article>
       </section>
     </div>
     <div class="contactme-part2">
       <form ref="form" class="contactme-part2-form">
         <input type="text" v-model="name" name="name" class="contactme-part2-form-input">
-        <p>Escribe tu nombre.</p>
+        <p>Write your name.</p>
         <br>
         <input type="text" v-model="email" name="email" class="contactme-part2-form-input">
-        <p>Escribe tu e-mail.</p>
+        <p>Write your e-mail.</p>
         <br>
         <input type="text" v-model="phone" name="phone" class="contactme-part2-form-input">
-        <p>Escribe tu teléfono.</p>
+        <p>Write your phone.</p>
         <br>
         <br>
         <textarea  v-model="message" name="message" class="contactme-part2-form-textarea"></textarea>
-        <p>Escribe tu mensaje.</p>
+        <p>Write your menssage.</p>
         <br>
         <br>
         <Button1 :contentText = "'Enviar mensaje'" :setCustomEvent="true" v-on:customEvent="sendEmail"/>

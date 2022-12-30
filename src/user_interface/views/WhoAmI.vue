@@ -3,11 +3,11 @@
     <div class="whoami-part1">
       <section class="whoami-part1-section1">
         <article>
-          <p>🖱️ Me considero una persona muy apasionada por la tecnología. Creo que la programación tiene una gran capacidad para cambiar el mundo y quiero ser parte de ese cambio creando productos increíbles que contribuyan a un mundo más justo y equilibrado en todos los aspectos de la vida ⚖️.</p>
+          <p>🖱️ I consider myself a person who is very passionate about technology. I believe that programming has a great capacity to change the world and I want to be part of that change by creating incredible products that contribute to a fairer and more balanced world in all aspects of life ⚖️.</p>
           <br>
-          <p>👨🏻‍💻 Me adentré en la programación desde hace mas de 8 años en donde he aprendido a desarrollar videojuegos, aplicaciones de escritorio, aplicaciones web y servidores, asi como a trabajar en equipo, ser paciente, analítico y he adquirido todo tipo de buenas practicas para ser eficiente, organizado y coordinar con otros  🖥️.</p>
+          <p>👨🏻 I got into programming for more than 8 years where I have learned to develop video games, desktop applications, web applications and servers, as well as to work as a team, be patient, analytical and I have acquired all kinds of good practices to be efficient, organized and coordinate with others 🖥️.</p>
           <br>
-          <p>🌐 Actualmente estoy muy interesado en expandir mis habilidades de <b>desarrollo web</b> contribuyendo en proyectos interesantes e innovadores con <b>Vue.js</b> y <b>Node.js</b>,  así como en enseñarle a otros que el software es algo fascinante, apasionante y que realmente todos podemos crear cosas increíbles con solo un pc 💭.</p>
+          <p>🌐 I am currently very interested in expanding my <b>web development</b> skills by contributing to interesting and innovative projects with <b>Vue.js</b> and <b>Node.js</b>, as well as teaching others that software is something fascinating, exciting and that we can really all create amazing things with it. just one PC 💭.</p>
         </article>
       </section>
     </div>

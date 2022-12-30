@@ -10,20 +10,20 @@
       </div>
       <div class="header-nav-items">
         <ul class="header-nav-items-ul"> 
-          <SelectMenuItem  contentText = "Quién soy" redirectPath="/whoami"/>
+          <SelectMenuItem  contentText = "Who am I" redirectPath="/whoami"/>
         </ul>
         <ul class="header-nav-items-ul"> 
-          <SelectMenuItem  contentText = "Portafolio" redirectPath="/portfolio" :activeAux1 = "true"/>
+          <SelectMenuItem  contentText = "Portfolio" redirectPath="/portfolio" :activeAux1 = "true"/>
         </ul>
         <ul class="header-nav-items-ul"> 
           <SelectMenuItem  contentText = "CV" redirectPath="/cv"/>
         </ul>
         <ul class="header-nav-items-ul"> 
-          <SelectMenuItem  contentText = "Pilares" redirectPath="/pillars" :activeAux2 = "true"/>
+          <SelectMenuItem  contentText = "Pillars" redirectPath="/pillars" :activeAux2 = "true"/>
         </ul>
       </div>
       <div class="header-nav-contact-me">
-        <Button1 :contentText = "'Contáctame'" redirectPath="/contactme"/>
+        <Button1 :contentText = "'Contact me'" redirectPath="/contactme"/>
       </div>
     </nav>
   </header>
