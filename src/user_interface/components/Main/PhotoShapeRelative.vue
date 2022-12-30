@@ -64,7 +64,7 @@ export default {
 }
 
 .photo-shape-picture-external-shpere-space {
-  position: absolute;
+  position: relative;
   display: flex;
   justify-content: center; 
   align-items: center;

@@ -12,7 +12,7 @@
       </section>
     </div>
     <div class="home-part2">
-      <PhotoShape pathImage = "@/user_interface/assets/Foto.jpg"></PhotoShape>
+      <PhotoShape pathImage = "Foto.jpg"></PhotoShape>
     </div>
   </div>
 </template>

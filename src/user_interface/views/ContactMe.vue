@@ -102,6 +102,7 @@ export default {
   margin-top: 30%;
   margin-bottom: 30%;
   margin-left: 50px;
+  margin-right: -50px;
   line-height : 35px;
   background-color: white;
   border: 3px solid var(--degrade3);    

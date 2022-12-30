@@ -12,7 +12,7 @@
       </section>
     </div>
     <div class="whoami-part2">
-      <PhotoShape pathImage = "@/user_interface/assets/Foto.jpg"></PhotoShape>
+      <PhotoShape pathImage = "Foto.jpg"></PhotoShape>
     </div>
   </div>
 </template>
@@ -48,7 +48,8 @@ export default {
   padding: 20px;
   margin-top: 30%;
   margin-bottom: 30%;
-  margin-left: 50px;
+  margin-left: 100px;
+  margin-right: -50px;
   line-height : 35px;
   background-color: white;
   border: 3px solid var(--degrade3);    
