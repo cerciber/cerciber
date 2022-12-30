@@ -7,7 +7,7 @@
           <br>
           <p>👨🏻‍💻 Me adentré en la programación desde hace mas de 8 años en donde he aprendido a desarrollar videojuegos, aplicaciones de escritorio, aplicaciones web y servidores, asi como a trabajar en equipo, ser paciente, analítico y he adquirido todo tipo de buenas practicas para ser eficiente, organizado y coordinar con otros  🖥️.</p>
           <br>
-          <p>🌐 Actualmente estoy muy interesado en expandir mis habilidades de desarrollo web contribuyendo en proyectos interesantes e innovadores con Vue.js y Node.js,  así como en enseñarle a otros que el software es algo fascinante, apasionante y que realmente todos podemos crear cosas increíbles con solo un pc 💭.</p>
+          <p>🌐 Actualmente estoy muy interesado en expandir mis habilidades de <b>desarrollo web</b> contribuyendo en proyectos interesantes e innovadores con <b>Vue.js</b> y <b>Node.js</b>,  así como en enseñarle a otros que el software es algo fascinante, apasionante y que realmente todos podemos crear cosas increíbles con solo un pc 💭.</p>
         </article>
       </section>
     </div>
@@ -44,6 +44,7 @@ export default {
 }
 
 .whoami-part1-section1 {
+  z-index: 100;
   padding: 20px;
   margin-top: 30%;
   margin-bottom: 30%;
