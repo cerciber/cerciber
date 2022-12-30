@@ -16,10 +16,18 @@ export default {
       type: String,
       default: ""
     },
+    setCustomEvent: {
+      type: Boolean,
+      default: false
+    },
   },
   methods: {
-    redirect: function () {
-      this.$router.push(this.redirectPath);
+    redirect: function (e) {
+      if (this.setCustomEvent) {
+        this.$emit('customEvent', e);
+      } else {
+        this.$router.push(this.redirectPath);
+      }
     }
   }
 }

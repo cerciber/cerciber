@@ -23,6 +23,6 @@ export default {
   padding-right: 10%;
   height: calc(100% - 175px);
   overflow: scroll;
-  background-color: var(--button-back-1);
+  background-color: var(--gray-back-1);
 }
 </style>

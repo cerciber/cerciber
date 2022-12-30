@@ -74,6 +74,7 @@ export default {
   --degrade4: var(--green-degrade2);
 
   --button-back-1: #313E50;
+  --gray-back-1: #313e5048;
   --text-1: #ffffff;
   --text-2: #313E50;
   --white-back: #f3f2f2;

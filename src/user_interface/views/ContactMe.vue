@@ -5,9 +5,9 @@
         <article>
           <p>🗣️ Si deseas comunicarte conmigo puedes contactarme a través de los sigientes medios 🤗.</p>
           <br>
-          <p>LinkedIn: <a href="https://www.linkedin.com/in/cerciber/">https://www.linkedin.com/in/cerciber</a>.</p>
-          <p>GitHub: <a href="https://github.com/cerciber">https://github.com/cerciber</a>.</p>
-          <p>Twitter: <a href="https://twitter.com/cerciber">https://twitter.com/cerciber</a>.</p>
+          <p>LinkedIn: <a href="https://www.linkedin.com/in/cerciber/" target="_blank">https://www.linkedin.com/in/cerciber</a>.</p>
+          <p>GitHub: <a href="https://github.com/cerciber" target="_blank">https://github.com/cerciber</a>.</p>
+          <p>Twitter: <a href="https://twitter.com/cerciber" target="_blank">https://twitter.com/cerciber</a>.</p>
           <p>Mail: <a href="mailto:contact@cerciber.com">contact@cerciber.com</a>.</p>
           <br>
           <p>📩 También puedes dejarme un mensaje y yo me comunicaré contigo 👉🏻.</p>
@@ -15,23 +15,23 @@
       </section>
     </div>
     <div class="contactme-part2">
-      <div class="contactme-part2-form">
-        <input type="text" class="contactme-part2-form-input">
+      <form ref="form" class="contactme-part2-form">
+        <input type="text" v-model="name" name="name" class="contactme-part2-form-input">
         <p>Escribe tu nombre.</p>
         <br>
-        <input type="text" class="contactme-part2-form-input">
+        <input type="text" v-model="email" name="email" class="contactme-part2-form-input">
         <p>Escribe tu e-mail.</p>
         <br>
-        <input type="text" class="contactme-part2-form-input">
+        <input type="text" v-model="phone" name="phone" class="contactme-part2-form-input">
         <p>Escribe tu teléfono.</p>
         <br>
         <br>
-        <textarea class="contactme-part2-form-textarea"></textarea>
+        <textarea  v-model="message" name="message" class="contactme-part2-form-textarea"></textarea>
         <p>Escribe tu mensaje.</p>
         <br>
         <br>
-        <Button1 :contentText = "'Enviar mensaje'" redirectPath="/contactme"/>
-      </div>
+        <Button1 :contentText = "'Enviar mensaje'" :setCustomEvent="true" v-on:customEvent="sendEmail"/>
+      </form>
     </div>
     <div class="contactme-shape-back-curve">
     </div>
@@ -40,11 +40,41 @@
 
 <script>
 import Button1 from '../components/Header/Button1.vue'
+import emailjs from 'emailjs-com'
 
 export default {
   name: 'contactMe',
   components: {
     Button1
+  },
+  data() {
+    return {
+      name: '',
+      email: '',
+      phone: '',
+      message: ''
+    }
+  },
+  methods: {
+    sendEmail(e) {
+      console.log(e.target)
+      try {
+        emailjs.sendForm('service_3ltguwu', 'template_dkp8dwp', this.$refs.form, 'uJmUDUksDbymMx0mM', {
+          name: 'Web Page Email from: ' + this.name,
+          email: 'contact@cerciber.com',
+          message: 'name: ' + this.name +  '\nemail: ' + this.email + '\nphone: ' + this.phone + '\n\n' + this.message
+        }).finally(() => {
+          alert('Tu mensaje fue enviado correctamente!. Te contactaré tan pronto me sea posible 🤗.')
+          this.name = ''
+          this.email = ''
+          this.phone = ''
+          this.message = ''
+        })
+      } catch(error) {
+        alert('Lo sentimos!!. Ocurrió un error al enviar tu mensaje.')
+      }
+      
+    }
   }
 }
 </script>
@@ -131,11 +161,11 @@ export default {
 }
 
 .contactme-part2-form-textarea {
-  width: 100%;
+  width: calc(100% - 20px);
   height: 60px;
   border: none;
   border: 2px solid var(--degrade3);
-  background-color: transparent;
+  background-color: white;
   resize: none;
   padding: 10px;
   font-family: 'Montserrat';
