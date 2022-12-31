@@ -41,7 +41,10 @@ export default {
   display: flex;
   justify-content: center; 
   align-items: center;
-  width: 50%;
+  min-width: 50%;
+  max-width: 50%;
+  padding-right: 50px;
+  padding-left: -50px;
   height: 100%;
 }
 
@@ -54,6 +57,17 @@ export default {
   display: flex;
   width: 50%;
   height: 100%;
+}
+
+@media only screen and ((max-width: 700px) or (max-height: 600px)) {
+  .home-part1 {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .home-part2 {
+    visibility: hidden;
+  }
 }
 
 </style>

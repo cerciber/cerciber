@@ -2,6 +2,8 @@
   <div class="whoami">
     <div class="whoami-part1">
       <section class="whoami-part1-section1">
+        <h3><b>Who am I</b></h3>
+        <br>
         <article>
           <p>🖱️ I consider myself a person who is very passionate about technology. I believe that programming has a great capacity to change the world and I want to be part of that change by creating incredible products that contribute to a fairer and more balanced world in all aspects of life ⚖️.</p>
           <br>
@@ -48,17 +50,32 @@ export default {
   padding: 20px;
   margin-top: 30%;
   margin-bottom: 30%;
-  margin-left: 100px;
-  margin-right: -50px;
+  margin-left: 10%;
+  margin-right: 10%;
   line-height : 35px;
+  max-height: calc(100% - 300px);
   background-color: white;
   border: 3px solid var(--degrade3);    
-  border-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  overflow: auto;
+  text-align: center;
 }
 
 .whoami-part2 {
   display: flex;
   width: 50%;
   height: 100%;
+}
+
+@media only screen and ((max-width: 700px) or (max-height: 600px)) {
+  .whoami-part1 {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .whoami-part2 {
+    visibility: hidden;
+  }
 }
 </style>

@@ -86,6 +86,7 @@ export default {
   align-items: center;
   width: 100%;
   height: 100%;
+  overflow: scroll;
 }
 
 .contactme-part1 {
@@ -102,7 +103,7 @@ export default {
   margin-top: 30%;
   margin-bottom: 30%;
   margin-left: 50px;
-  margin-right: -50px;
+  margin-right: 50px;
   line-height : 35px;
   background-color: white;
   border: 3px solid var(--degrade3);    
@@ -174,6 +175,24 @@ export default {
 
 .contactme-part2-form-textarea:focus {
   outline: none;
+}
+
+@media only screen and ((max-width: 700px) or (max-height: 600px)) {
+  .contactme {
+    display: grid;
+  }
+
+  .contactme-part1 {
+    width: 100%;
+    height: 600px;
+  }
+
+  .contactme-part2 {
+    width: 100%;
+    margin-top: -100px;
+    padding-bottom: 100px;
+  }
+
 }
 
 

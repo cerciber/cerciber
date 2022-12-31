@@ -1,4 +1,7 @@
 <template>
+  <div class="header-back-sphere header-back-sphere1"></div>
+  <div class="header-back-sphere header-back-sphere2"></div>
+  <div class="header-back-sphere header-back-sphere3"></div>
   <Header></Header>
   <Main></Main>
   <Aside></Aside>
@@ -84,6 +87,7 @@ export default {
 body {
   margin: 0px;
   padding: 0px;
+  overflow: hidden;
 }
 
 h1 {
@@ -123,6 +127,70 @@ p {
   font-weight: 500;
   color: var(--text-2);
   line-height : 25px;
+}
+
+.header-back-sphere {
+  position: absolute;
+  z-index: -100;
+  width: 800px;
+
+  min-width: 800px;
+  max-width: 800px;
+  mask-size: 100%;
+  height: 800px;
+
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  
+  background: var(--back-sphere2);
+
+  mask-image: url('~@/user_interface/assets/BackgroundSphere.png');
+  overflow: hidden;
+  
+}
+
+.header-back-sphere1 {
+  margin-left: -0px;
+  margin-top: -300px;
+}
+
+.header-back-sphere2 {
+  margin-left: -200px;
+  margin-top: -300px;
+}
+
+.header-back-sphere3 {
+  margin-left: -400px;
+  margin-top: -300px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+  height: 0px;
+  background: transparent;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--degrade3); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--degrade3); 
+}
+
+::-webkit-scrollbar-corner {
+  background: var(--degrade3); 
 }
 
 </style>

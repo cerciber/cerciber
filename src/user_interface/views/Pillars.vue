@@ -1,6 +1,6 @@
 <template>
   <div class="pillars">
-    <section class="pillars-content">
+    <div class="pillars-content">
       <div class="pillars-content-item">
         <div class="pillars-content-item-icon">🙇🏻‍♂️</div>
         <br>
@@ -31,7 +31,7 @@
         <br>
         <p>Give value to all aspects of your life.</p>
       </div> 
-    </section>
+    </div>
     <div class="pillars-shape-back-curve">
     </div>
   </div>
@@ -45,43 +45,38 @@ export default {
 
 <style scoped>
 .pillars {
-  display: flex;
-  justify-content: center; 
-  align-items: center;
   width: 100%;
   height: 100%;
+  overflow: scroll;
 }
 
 .pillars-content {
-  display: flex;
-  justify-content: space-evenly; 
-  align-items: center;
   flex-flow: wrap;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-top: 100px;
+  padding-bottom: 50px;
   width: 100%;
   z-index: 100;
 }
 
 .pillars-content-item {
-  background-color: blue;
   text-align: center;
   z-index: 100;
-  margin: 10px;
+  margin: 50px;
   padding: 30px;
   line-height: 35px;
   background-color: white;
   border: 3px solid var(--degrade3);    
-  border-radius: 20px;
-  height: 150px;
-  width: 150px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  min-width: calc(100% - 300px);
 }
 
 .pillars-content-item-icon {
   display: flex;
   justify-content: center; 
   align-items: center;
-  font-size: 60px;
+  font-size: 80px;
+  margin-top: -50px;
 }
 
 .pillars-shape-back-curve {
