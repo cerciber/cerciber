@@ -2,7 +2,7 @@
   <div class="portfolio-content">
     <div class="portfolio portfolio-first">
       <div class="portfolio-part1">
-        <PhotoShapeRelative pathImage = "SigmathEnviroment.png" disableBack="true" title="Sigmath"></PhotoShapeRelative>
+        <PhotoShapeRelative pathImage = "SigmathEnviroment.png" disableBack="true" title="Sigmath Platform"></PhotoShapeRelative>
       </div>
       <div class="portfolio-part2">
         <section class="portfolio-part2-section1">
@@ -20,26 +20,26 @@
       <div class="portfolio-part2">
         <section class="portfolio-part2-section2">
           <article>
-            <p>🔢 Sigmath is a web platform that intends to establish a close connection between computing and mathematics, allowing users to create, share, use and manipulate custom functional mathematical modules to solve real-world problems naturally and automatically in community 🤼.</p>
+            <p>🔢 A Single Web Application developed for the company Nullspace with the intention of showing different company specialties in an original and interactive way, using 3D modeling and particle effects to give the illusion that the particles make up the 3D figures 🤼.</p>
             <br>
-            <p>📝 I completely defined and directed this project and together with a team of 5 people we created a first functional version of the platform developing a <b>REST-API</b> with <b>Node.js</b> and <b>sequelize (postgreSQL)</b>, and a <b>Web Application</b> with <b>Vue.js</b> 🌐.</p>
+            <p>📝 I worked on the development of the interfaces from Vue.js and I developed part of the 3D environment, color interactions and particles using Three.js. I worked with a team of 3 developers and a graphic designer specialized in 3D 🌐.</p>
           </article>
         </section>
       </div>
       <div class="portfolio-part1">
-        <PhotoShapeRelative pathImage = "SigmathEnviroment.png" disableBack="true" title="Nullspace Page"></PhotoShapeRelative>
+        <PhotoShapeRelative pathImage = "NullspaceEnviroment.png" disableBack="true" title="Nullspace Webpage"></PhotoShapeRelative>
       </div>
     </div>
     <div class="portfolio">
       <div class="portfolio-part1">
-        <PhotoShapeRelative pathImage = "CerciberEnviroment.png" disableBack="true" title="Cerciber Page"></PhotoShapeRelative>
+        <PhotoShapeRelative pathImage = "CerciberEnviroment.png" disableBack="true" title="Cerciber Webpage"></PhotoShapeRelative>
       </div>
       <div class="portfolio-part2">
         <section class="portfolio-part2-section1">
           <article>
-            <p>🔢 Sigmath is a web platform that intends to establish a close connection between computing and mathematics, allowing users to create, share, use and manipulate custom functional mathematical modules to solve real-world problems naturally and automatically in community 🤼.</p>
+            <p>🔢 A Single Web Application created as my personal page, in this I talk a little about who I am, my central thoughts, I show my project portfolio, my CV, my social networks and ways to contact me 🤼.</p>
             <br>
-            <p>📝 I completely defined and directed this project and together with a team of 5 people we created a first functional version of the platform developing a <b>REST-API</b> with <b>Node.js</b> and <b>sequelize (postgreSQL)</b>, and a <b>Web Application</b> with <b>Vue.js</b> 🌐.</p>
+            <p>📝 I worked on the design and the complete development of all the interfaces and interactions from Vue.js and I implemented a system of routes 🌐.</p>
           </article>
         </section>
       </div>
