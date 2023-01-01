@@ -99,4 +99,22 @@ header {
   margin-top: 3px;
 }
 
+@media only screen and (max-width: 900px) {
+  .header-nav-items {
+    visibility: hidden;
+  }
+
+  .header-nav-items-ul {
+    width: 0px;
+  }
+
+  .header-nav-logo {
+  }
+
+  .header-nav {
+
+  }
+
+}
+
 </style>
