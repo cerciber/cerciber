@@ -169,7 +169,7 @@ p {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 15px;
+  width: 10px;
   height: 0px;
   background: transparent;
 }
