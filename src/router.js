@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import Home from "./user_interface/views/Home.vue";
 import WhoAmI from "./user_interface/views/WhoAmI.vue";
 import Portfolio from "./user_interface/views/Portfolio.vue";
@@ -7,7 +7,7 @@ import Pillars from "./user_interface/views/Pillars.vue";
 import ContactMe from "./user_interface/views/ContactMe.vue";
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHashHistory(),
     routes: [
         {
             // Redireccionar ruta raiz
