@@ -1,6 +1,9 @@
 <template>
   <main>
-    <router-view></router-view>
+    <div class="main-content">
+      <router-view></router-view>
+    </div>
+    
   </main>
 </template>
 
@@ -13,6 +16,12 @@ export default {
 <style scoped>
 
 main {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.main-content {
   position: absolute;
   z-index: -2;
   top: 0px;

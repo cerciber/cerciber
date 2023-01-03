@@ -2,7 +2,7 @@
   <div class="portfolio-content">
     <div class="portfolio portfolio-first">
       <div class="portfolio-part1">
-        <PhotoShapeRelative pathImage = "SigmathEnviroment.png" disableBack="true" title="Sigmath Platform"></PhotoShapeRelative>
+        <PhotoShapeRelative pathImage = "SigmathEnviroment.png" :disableBack="true" title="Sigmath Platform"></PhotoShapeRelative>
       </div>
       <div class="portfolio-part2">
         <section class="portfolio-part2-section1">
@@ -31,12 +31,12 @@
         </section>
       </div>
       <div class="portfolio-part1">
-        <PhotoShapeRelative pathImage = "NullspaceEnviroment.png" disableBack="true" title="Nullspace Webpage"></PhotoShapeRelative>
+        <PhotoShapeRelative pathImage = "NullspaceEnviroment.png" :disableBack="true" title="Nullspace Webpage"></PhotoShapeRelative>
       </div>
     </div>
     <div class="portfolio">
       <div class="portfolio-part1">
-        <PhotoShapeRelative pathImage = "CerciberEnviroment.png" disableBack="true" title="Cerciber Webpage"></PhotoShapeRelative>
+        <PhotoShapeRelative pathImage = "CerciberEnviroment.png" :disableBack="true" title="Cerciber Webpage"></PhotoShapeRelative>
       </div>
       <div class="portfolio-part2">
         <section class="portfolio-part2-section1">
