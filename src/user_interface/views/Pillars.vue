@@ -69,6 +69,11 @@ export default {
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   min-width: calc(100% - 300px);
+  transition: 0.3s;
+}
+
+.pillars-content-item:hover {
+  scale: 1.03;
 }
 
 .pillars-content-item-icon {
@@ -77,6 +82,11 @@ export default {
   align-items: center;
   font-size: 80px;
   margin-top: -50px;
+  transition: 0.3s;
+}
+
+.pillars-content-item-icon:hover {
+  scale: 1.1;
 }
 
 .pillars-shape-back-curve {

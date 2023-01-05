@@ -40,6 +40,12 @@ export default {
   display: flex;
   justify-content: center; 
   align-items: center;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.menu-button:hover {
+  scale: 1.1;
 }
 
 .menu-button-content{
@@ -52,5 +58,6 @@ export default {
   font-family: 'Lato';
   text-transform: uppercase;
   font-size: 12px;
+  cursor: pointer;
 }
 </style>

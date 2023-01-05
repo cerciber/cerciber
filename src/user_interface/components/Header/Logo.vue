@@ -22,6 +22,12 @@ export default {
   display: flex;
   justify-content: center; 
   align-items: center;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.logo:hover {
+  scale: 1.1;
 }
 
 .logo-mask {

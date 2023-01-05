@@ -108,6 +108,11 @@ export default {
   border-radius:50%;
   -moz-border-radius:50%;
   -webkit-border-radius:50%;
+  transition: 0.3s;
+}
+
+.photo-shape-picture-internal-shpere:hover {
+  scale: 1.03;
 }
 
 .photo-shape-picture-photo {

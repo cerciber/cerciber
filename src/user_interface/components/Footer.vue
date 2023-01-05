@@ -71,6 +71,12 @@ footer {
   padding: 0px;
   margin-top: -8px;
   margin-left: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.footer-items-ul:hover {
+  scale: 1.1;
 }
 
 </style>

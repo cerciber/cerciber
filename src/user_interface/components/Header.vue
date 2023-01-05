@@ -124,6 +124,12 @@ header {
   min-width: 0px;
   max-width: 0px;
   visibility: hidden;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.header-nav-menu:hover {
+  scale: 1.1;
 }
 
 .header-nav-items-ul {
@@ -135,6 +141,16 @@ header {
   margin-left: 15px;
   margin-right: 15px;
   margin-top: 3px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.header-nav-items-ul:hover {
+  scale: 1.1;
+}
+
+.header-nav-items-ul:focus {
+  background-color: red;
 }
 
 .hamburguer-icon-cover {
@@ -194,6 +210,7 @@ header {
 
   .header-nav-items-ul {
     width: 0px;
+    transition: 0.0s;
   }
 
   .header-nav-contact-me {
