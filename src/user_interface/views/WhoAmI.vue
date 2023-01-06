@@ -9,7 +9,7 @@
           <br>
           <p>👨🏻 I got into programming for more than 8 years where I have learned to develop video games, desktop applications, web applications and servers, as well as to work as a team, be patient, analytical and I have acquired all kinds of good practices to be efficient, organized and coordinate with others 🖥️.</p>
           <br>
-          <p>🌐 I am currently very interested in expanding my <b>web development</b> skills by contributing to interesting and innovative projects with <b>Vue.js</b> and <b>Node.js</b>, as well as teaching others that software is something fascinating, exciting and that we can really all create amazing things with it. just one PC 💭.</p>
+          <p>🌐 I am currently very interested in expanding my <b>web development</b> skills by contributing to interesting and innovative projects with <b>Vue.js</b> and <b>Node.js</b>, as well as teaching others that software is something fascinating, exciting and that we can really all create amazing things with just one PC 💭.</p>
         </article>
       </section>
     </div>
