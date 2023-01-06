@@ -63,8 +63,14 @@ export default {
           name: 'Web Page Email from: ' + this.name,
           email: 'contact@cerciber.com',
           message: 'name: ' + this.name +  '\nemail: ' + this.email + '\nphone: ' + this.phone + '\n\n' + this.message
-        }).finally(() => {
+        }).then(() => {
           alert('Tu mensaje fue enviado correctamente!. Te contactaré tan pronto me sea posible 🤗.')
+          this.name = ''
+          this.email = ''
+          this.phone = ''
+          this.message = ''
+        }).catch(() => {
+          alert('Lo sentimos!!. Ocurrió un error al enviar tu mensaje.')
           this.name = ''
           this.email = ''
           this.phone = ''
@@ -72,6 +78,10 @@ export default {
         })
       } catch(error) {
         alert('Lo sentimos!!. Ocurrió un error al enviar tu mensaje.')
+          this.name = ''
+          this.email = ''
+          this.phone = ''
+          this.message = ''
       }
       
     }
