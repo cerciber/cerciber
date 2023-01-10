@@ -6,8 +6,10 @@ I consider myself a person who is very passionate about technology 🖱️. I be
 
 🙇🏻‍♂️ Strive to be happy and live peacefully with you and your community!! 🤗. 
 
-**Page:** [cerciber.com](https://cerciber.com/)
+**Webpage:** [cerciber.com](https://cerciber.com/)
 
 **Twitter:** [@cerciber](https://twitter.com/cerciber)
 
 **LinkedIn:** [cerciber](https://www.linkedin.com/in/cerciber/)
+
+**Email:** [cerciber](contact@cerciber.com)
