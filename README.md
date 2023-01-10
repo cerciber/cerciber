@@ -12,4 +12,4 @@ I consider myself a person who is very passionate about technology 🖱️. I be
 
 **LinkedIn:** [cerciber](https://www.linkedin.com/in/cerciber/)
 
-**Email:** [cerciber](contact@cerciber.com)
+**Email:** [contact@cerciber.com](mailto:contact@cerciber.com)
