@@ -10,6 +10,4 @@ I consider myself a person who is very passionate about technology 🖱️. I be
 
 **Twitter:** [@cerciber](https://twitter.com/cerciber)
 
-**TikTok:** [@cerciber](https://www.tiktok.com/@cerciber)
-
 **LinkedIn:** [cerciber](https://www.linkedin.com/in/cerciber/)
