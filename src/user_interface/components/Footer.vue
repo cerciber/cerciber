@@ -11,6 +11,9 @@
           <ExternalLink imageLogo="twitter" v-on:goTo="goToTwitter"/>
         </ul>
         <ul  class="footer-items-ul"> 
+          <ExternalLink imageLogo="tiktok" v-on:goTo="goToTikTok"/>
+        </ul>
+        <ul  class="footer-items-ul"> 
           <ExternalLink imageLogo="mail" v-on:goTo="goToMail"/>
         </ul>
     </div>
@@ -34,6 +37,9 @@ export default {
     },
     goToTwitter: function () {
       window.open('https://twitter.com/cerciber', '_blank', 'noreferrer');
+    },
+    goToTikTok: function () {
+      window.open('https://www.tiktok.com/@cerciber', '_blank', 'noreferrer');
     },
     goToMail: function () {
       var emailTo = 'cerdiber@hotmail.com'

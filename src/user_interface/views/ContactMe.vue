@@ -8,6 +8,7 @@
           <p>LinkedIn: <a href="https://www.linkedin.com/in/cerciber/" target="_blank">linkedin.com/in/cerciber</a>.</p>
           <p>GitHub: <a href="https://github.com/cerciber" target="_blank">github.com/cerciber</a>.</p>
           <p>Twitter: <a href="https://twitter.com/cerciber" target="_blank">twitter.com/cerciber</a>.</p>
+          <p>TikTok: <a href="https://www.tiktok.com/@cerciber" target="_blank">tiktok.com/@cerciber</a>.</p>
           <p>Mail: <a href="mailto:cerciber@hotmail.com">cerciber@hotmail.com</a>.</p>
           <br>
           <p>📩 You can also leave me a message and I will contact you 👉🏻.</p>
