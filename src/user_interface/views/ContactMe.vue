@@ -5,10 +5,10 @@
         <article>
           <p>🗣️ If you want to communicate with me you can contact me through the following means 🤗.</p>
           <br>
-          <p>LinkedIn: <a href="https://www.linkedin.com/in/cerciber/" target="_blank">https://www.linkedin.com/in/cerciber</a>.</p>
-          <p>GitHub: <a href="https://github.com/cerciber" target="_blank">https://github.com/cerciber</a>.</p>
-          <p>Twitter: <a href="https://twitter.com/cerciber" target="_blank">https://twitter.com/cerciber</a>.</p>
-          <p>Mail: <a href="mailto:contact@cerciber.com">contact@cerciber.com</a>.</p>
+          <p>LinkedIn: <a href="https://www.linkedin.com/in/cerciber/" target="_blank">linkedin.com/in/cerciber</a>.</p>
+          <p>GitHub: <a href="https://github.com/cerciber" target="_blank">github.com/cerciber</a>.</p>
+          <p>Twitter: <a href="https://twitter.com/cerciber" target="_blank">twitter.com/cerciber</a>.</p>
+          <p>Mail: <a href="mailto:contact@cerciber.com">cerciber@hotmail.com</a>.</p>
           <br>
           <p>📩 You can also leave me a message and I will contact you 👉🏻.</p>
         </article>
@@ -61,7 +61,7 @@ export default {
       try {
         emailjs.sendForm('service_3ltguwu', 'template_dkp8dwp', this.$refs.form, 'uJmUDUksDbymMx0mM', {
           name: 'Web Page Email from: ' + this.name,
-          email: 'contact@cerciber.com',
+          email: 'cerciber@hotmail.com',
           message: 'name: ' + this.name +  '\nemail: ' + this.email + '\nphone: ' + this.phone + '\n\n' + this.message
         }).then(() => {
           alert('Tu mensaje fue enviado correctamente!. Te contactaré tan pronto me sea posible 🤗.')

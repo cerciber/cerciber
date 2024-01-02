@@ -36,7 +36,7 @@ export default {
       window.open('https://twitter.com/cerciber', '_blank', 'noreferrer');
     },
     goToMail: function () {
-      var emailTo = 'contact@cerciber.com'
+      var emailTo = 'cerdiber@hotmail.com'
       var emailCC = ''
       var emailSub = ''
       var emailBody = ''
