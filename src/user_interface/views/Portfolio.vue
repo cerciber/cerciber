@@ -2,7 +2,12 @@
   <div class="portfolio-content">
     <div class="portfolio portfolio-first">
       <div class="portfolio-part1">
-        <PhotoShapeRelative pathImage = "SigmathEnviroment.png" :disableBack="true" title="Sigmath Platform"></PhotoShapeRelative>
+        <PhotoShapeRelative pathImage = "SigmathEnviroment.png" :disableBack="true" title="Sigmath Platform" 
+        :images="[
+          'CerciberEnviroment.png',
+          'collage-video-homepage-nullspace.mp4'
+        ]"
+      ></PhotoShapeRelative>
       </div>
       <div class="portfolio-part2">
         <section class="portfolio-part2-section1">

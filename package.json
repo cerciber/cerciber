@@ -11,10 +11,15 @@
   "dependencies": {
     "core-js": "^3.8.3",
     "emailjs-com": "^3.2.0",
+    "primevue": "^3.46.0",
+    "v-viewer": "^3.0.13",
+    "viewerjs": "^1.11.6",
     "vue": "^3.2.13",
+    "vue-awesome-swiper": "^5.0.1",
     "vue-pdf": "^4.3.0",
     "vue-pdf-embed": "^1.1.5",
-    "vue-router": "^4.1.6"
+    "vue-router": "^4.1.6",
+    "vue3-carousel": "^0.3.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",

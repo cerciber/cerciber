@@ -4,7 +4,7 @@
   <div class="photo-shape-picture-external-shpere-space">
     <div class="photo-shape-picture-external-shpere">
     </div>
-    <div class="photo-shape-picture-internal-shpere">
+    <div class="photo-shape-picture-internal-shpere" @click="show">
       <div class="photo-shape-picture-photo">
         <img :src="pathImage" class="photo-shape-picture-photo-content">
       </div>
@@ -12,13 +12,35 @@
         <h1>{{title}}</h1>
       </div>
     </div>
-    
   </div>
+  <div class="overlay" v-if="showPopup" @click="hide">
+    <div class="content"  @click="stopPropagation">
+      <carousel :items-to-show="1">
+        <slide v-for="(element, index) in images" :key="index">
+          <video v-if="isVideo(element)" autoplay loop muted playbackRate="1.5" class="image">
+            <source :src="element" type="video/mp4">
+          </video>
+          <img v-else :src="element" class="image">
+        </slide>
+        <template #addons>
+          <navigation/>
+        </template>
+      </carousel>
+    </div>
+</div>
 </template>
 
 <script>
+import 'vue3-carousel/dist/carousel.css'
+import { Carousel, Slide, Navigation } from 'vue3-carousel'
+
 export default {
   name: 'headerComponent',
+  components: {
+    Carousel,
+    Slide,
+    Navigation,
+  },
   props: {
     pathImage: {
       type: String,
@@ -32,6 +54,68 @@ export default {
       type: String,
       default: ""
     },
+    images: {
+      type: Array
+    },
+  },
+  data() {
+    return {
+      showPopup: false,
+      products: [
+      {
+          id: '1000',
+          code: 'f230fh0g3',
+          name: 'Bamboo Watch',
+          description: 'Product Description',
+          image: 'bamboo-watch.jpg',
+          price: 65,
+          category: 'Accessories',
+          quantity: 24,
+          inventoryStatus: 'INSTOCK',
+          rating: 5
+      }
+      ],
+      responsiveOptions: [
+          {
+              breakpoint: '1400px',
+              numVisible: 2,
+              numScroll: 1
+          },
+          {
+              breakpoint: '1199px',
+              numVisible: 3,
+              numScroll: 1
+          },
+          {
+              breakpoint: '767px',
+              numVisible: 2,
+              numScroll: 1
+          },
+          {
+              breakpoint: '575px',
+              numVisible: 1,
+              numScroll: 1
+          }
+      ]
+    };
+  },
+  mounted() {
+    
+  },
+  methods: {
+    show() {
+      this.showPopup = true
+    },
+    hide() {
+      this.showPopup = false
+    },
+    stopPropagation(event) {
+      event.stopPropagation();
+    },
+    isVideo(path) {
+      const regex = /\.mp4$/i;
+      return regex.test(path)
+    }
   }
 }
 </script>
@@ -109,10 +193,12 @@ export default {
   -moz-border-radius:50%;
   -webkit-border-radius:50%;
   transition: 0.3s;
+  
 }
 
 .photo-shape-picture-internal-shpere:hover {
   scale: 1.03;
+  cursor: pointer;
 }
 
 .photo-shape-picture-photo {
@@ -144,6 +230,43 @@ export default {
 
 .photo-shape-picture-title h1 {
   color: var(--degrade3);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+/* Estilo para el contenido dentro del div */
+.content {
+  max-width: 100%;
+  max-height: calc(60vh + 50px);
+  min-width: 100%;
+  min-height: calc(60vh + 50px);
+  width: 100%;
+  height: calc(60vh + 50px);
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  pointer-events: all;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+  background-color: rgba(0, 0, 0, 0.5)
+}
+
+.image {
+  width: auto;
+  height: 60vh;
+  display: inline;
 }
 
 </style>
