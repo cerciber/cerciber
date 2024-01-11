@@ -120,7 +120,7 @@ h3 {
   color: var(--text-2);
 }
 
-p {
+p, li {
   font-family: 'Montserrat';
   margin: 0px;
   font-size: 14px;

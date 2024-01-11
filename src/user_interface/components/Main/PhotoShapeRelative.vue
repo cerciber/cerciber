@@ -238,7 +238,7 @@ export default {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -260,13 +260,14 @@ export default {
   overflow: hidden;
   padding: 0px;
   margin: 0px;
-  background-color: rgba(0, 0, 0, 0.5)
+  background-color: rgba(0, 0, 0, 0.2)
 }
 
 .image {
   width: auto;
   height: 60vh;
   display: inline;
+  border-radius: 10px;
 }
 
 </style>

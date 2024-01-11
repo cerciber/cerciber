@@ -2,145 +2,114 @@
   <div class="portfolio-content">
     <div class="portfolio portfolio-first">
       <div class="portfolio-part1">
-        <PhotoShapeRelative pathImage = "SigmathEnviroment.png" :disableBack="true" title="Sigmath Platform" 
+        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-bookxm.png" :disableBack="true" title="BookXM" 
         :images="[
-          'CerciberEnviroment.png',
-          'collage-video-homepage-nullspace.mp4'
+          'portfolio-multimedia/main-bookxm.png',
+          'portfolio-multimedia/collage-bookxm.png'
         ]"
       ></PhotoShapeRelative>
       </div>
       <div class="portfolio-part2">
         <section class="portfolio-part2-section1">
           <article>
-            <h3><b>Sigmath Platform</b></h3>
-            <br>
-            <p>🔢 Sigmath is a <b>web platform</b> that intends to establish a close connection between computing and mathematics, allowing users to create, share, use and manipulate custom functional mathematical modules to solve real-world problems naturally and automatically in community 🤼.</p>
-            <br>
-            <p>📝 I completely defined and directed this project and together with a team of 5 people we created a first functional version of the platform developing a <b>REST-API</b> with <b>Node.js</b> and <b>sequelize (postgreSQL)</b>, and a <b>Web Application</b> with <b>Vue.js</b> 🌐.</p>
+            <h3><b>BookXM (MarketXM)</b></h3>
+            <p>Creation of a platform for the management of financial credits of different types in a parametric way.</p>
+            <ul class="description-lu">
+                <li>Creation of functionalities in <b>Node.js</b> with <b>Javascript</b> and <b>Typescript</b>.</li>
+                <li>Management of <b>Prisma ORM</b> with <b>PostgreSQL</b>.</li>
+                <li>Development of <b>SPA</b> in <b>React.js</b>.</li>
+                <li>Implementation of <b>API-REST</b> and <b>Microservices</b> system using <b>Clean Architecture</b> and <b>Event-Driven Architecture</b> with <b>Kafka</b>.</li>
+                <li>Implementation of authentication and authorization mechanisms with <b>JWT</b>.</li>
+                <li>Configuration of <b>AWS</b> services such as: <b>IAM, S3, API Gateway, Lambda and Cloud Watch</b>. </li>
+            </ul>
           </article>
         </section>
       </div>
       <div class="portfolio-shape-back-curve">
       </div>
     </div>
+
     <div class="portfolio">
-      <div class="portfolio-part2">
+      <div class="portfolio-part1">
         <section class="portfolio-part2-section2">
           <article>
-            <h3><b>Nullspace Webpage</b></h3>
-            <br>
-            <p>🔢 A <b>Single Web Application</b> developed for the company Nullspace with the intention of showing different company specialties in an original and interactive way, using 3D modeling and particle effects to give the illusion that the particles make up the 3D figures 🤼.</p>
-            <br>
-            <p>📝 I worked on the development of the interfaces from <b>Vue.js</b> and I developed part of the 3D environment, color interactions and particles using <b>Three.js</b>. I worked with a team of 3 developers and a graphic designer specialized in 3D 🌐.</p>
+            <h3><b>CollXM (MarketXM)</b></h3>
+            <p>Creation of a platform that allows the exchange of derivative financial services between different types of entities.</p>
+            <ul class="description-lu">
+                <li>Creation of functionalities in <b>Node.js</b> with <b>Javascript</b>.</li>
+                <li>Management of <b>Sequelize ORM</b> and <b>Prisma ORM</b> with <b>PostgreSQL</b>.</li>
+                <li>Development of <b>SPA</b> in <b>React.js</b>.</li>
+                <li>Implementation of <b>API-REST</b> using <b>Clean Architecture</b>.</li>
+                <li>Implementation of authentication and authorization mechanisms with <b>JWT</b>.</li>
+            </ul>
           </article>
         </section>
       </div>
-      <div class="portfolio-part1">
-        <PhotoShapeRelative pathImage = "NullspaceEnviroment.png" :disableBack="true" title="Nullspace Webpage"></PhotoShapeRelative>
+      <div class="portfolio-part2">
+        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-collxm.png" :disableBack="true" title="CollXM"
+        :images="[
+          'portfolio-multimedia/main-collxm.png',
+          'portfolio-multimedia/collage-collxm.png'
+        ]"
+      ></PhotoShapeRelative>
       </div>
     </div>
+
     <div class="portfolio">
       <div class="portfolio-part1">
-        <PhotoShapeRelative pathImage = "CerciberEnviroment.png" :disableBack="true" title="Cerciber Webpage"></PhotoShapeRelative>
+        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-bookxm.png" :disableBack="true" title="BookXM" 
+        :images="[
+          'portfolio-multimedia/main-bookxm.png',
+          'portfolio-multimedia/collage-bookxm.png'
+        ]"
+      ></PhotoShapeRelative>
       </div>
       <div class="portfolio-part2">
         <section class="portfolio-part2-section1">
           <article>
-            <h3><b>Cerciber Webpage</b></h3>
-            <br>
-            <p>🔢 A <b>Single Web Application</b> created as my personal page, in this I talk a little about who I am, my central thoughts, I show my project portfolio, my CV, my social networks and ways to contact me 🤼.</p>
-            <br>
-            <p>📝 I worked on the design and the complete development of all the interfaces and interactions from <b>Vue.js</b> and I implemented a system of routes 🌐.</p>
+            <h3><b>BookXM (MarketXM)</b></h3>
+            <p>Creation of a platform for the management of financial credits of different types in a parametric way.</p>
+            <ul class="description-lu">
+                <li>Creation of functionalities in <b>Node.js</b> with <b>Javascript</b> and <b>Typescript</b>.</li>
+                <li>Management of <b>Prisma ORM</b> with <b>PostgreSQL</b>.</li>
+                <li>Development of <b>SPA</b> in <b>React.js</b>.</li>
+                <li>Implementation of <b>API-REST</b> and <b>Microservices</b> system using <b>Clean Architecture</b> and <b>Event-Driven Architecture</b> with <b>Kafka</b>.</li>
+                <li>Implementation of authentication and authorization mechanisms with <b>JWT</b>.</li>
+                <li>Configuration of <b>AWS</b> services such as: <b>IAM, S3, API Gateway, Lambda and Cloud Watch</b>. </li>
+            </ul>
           </article>
         </section>
       </div>
       <div class="portfolio-shape-back-curve">
       </div>
     </div>
+
     <div class="portfolio">
-      <div class="portfolio-part2">
+      <div class="portfolio-part1">
         <section class="portfolio-part2-section2">
           <article>
-            <h3><b>Trimcode</b></h3>
-            <br>
-            <p>🔢 A <b>desktop application</b> that allows you to save and execute scripts from different programming languages, in such a way that it allows developers to create custom functionalities in the operating system and be able to use them at any time without the need to depend on other development tools. It allows you to run C, C++, Python, Java, and Javascript code. 🤼.</p>
-            <br>
-            <p>📝 I fully planted and developed the prototype using <b>Java SE</b>, directly accessing the base complicators of the programming languages, generalizing them through interfaces and using an <b>MVC</b> architecture 🌐.</p>
+            <h3><b>CollXM (MarketXM)</b></h3>
+            <p>Creation of a platform that allows the exchange of derivative financial services between different types of entities.</p>
+            <ul class="description-lu">
+                <li>Creation of functionalities in <b>Node.js</b> with <b>Javascript</b>.</li>
+                <li>Management of <b>Sequelize ORM</b> and <b>Prisma ORM</b> with <b>PostgreSQL</b>.</li>
+                <li>Development of <b>SPA</b> in <b>React.js</b>.</li>
+                <li>Implementation of <b>API-REST</b> using <b>Clean Architecture</b>.</li>
+                <li>Implementation of authentication and authorization mechanisms with <b>JWT</b>.</li>
+            </ul>
           </article>
         </section>
-      </div>
-      <div class="portfolio-part1">
-        <PhotoShapeRelative pathImage = "trimcode.png" :disableBack="true" title="TrimCode"></PhotoShapeRelative>
-      </div>
-    </div>
-    <div class="portfolio">
-      <div class="portfolio-part1">
-        <PhotoShapeRelative pathImage = "structfile.png" :disableBack="true" title="StructFile"></PhotoShapeRelative>
       </div>
       <div class="portfolio-part2">
-        <section class="portfolio-part2-section1">
-          <article>
-            <h3><b>Structfile</b></h3>
-            <br>
-            <p>🔢 It is a <b>programming language</b> of mine whose purpose is to facilitate the treatment of plain text, files and directories in the operating system. It consists of facilities to access the file system, handles treatment of variables, conditional and repetitive structures, as well as its own syntax to perform basic operations on data groups 🤼.</p>
-            <br>
-            <p>📝 I created the language execution environment in <b>Java SE</b>, and through <b>ANTLR</b> I established the specific grammar using <b>Python</b> and <b>RegEx</b> to develop the internal logic 🌐.</p>
-          </article>
-        </section>
-      </div>
-      <div class="portfolio-shape-back-curve">
+        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-collxm.png" :disableBack="true" title="CollXM"
+        :images="[
+          'portfolio-multimedia/main-collxm.png',
+          'portfolio-multimedia/collage-collxm.png'
+        ]"
+      ></PhotoShapeRelative>
       </div>
     </div>
-    <div class="portfolio">
-      <div class="portfolio-part2">
-        <section class="portfolio-part2-section2">
-          <article>
-            <h3><b>Findcode</b></h3>
-            <br>
-            <p>🔢 It is a <b>desktop application</b> that allows developers to save, manage and comment on their pieces of code interactively. It contains a search to find community codes and allows commenting on any code snippet that is underlined to explain the code without altering it 🤼.</p>
-            <br>
-            <p>📝 I developed this app hand in hand with someone else using <b>Java SE</b> for interfaces and interactions and <b>MySQL</b> for all data persistence 🌐.</p>
-          </article>
-        </section>
-      </div>
-      <div class="portfolio-part1">
-        <PhotoShapeRelative pathImage = "findcode.png" :disableBack="true" title="FindCode"></PhotoShapeRelative>
-      </div>
-    </div>
-    <div class="portfolio">
-      <div class="portfolio-part1">
-        <PhotoShapeRelative pathImage = "tankattack.png" :disableBack="true" title="TankAttack"></PhotoShapeRelative>
-      </div>
-      <div class="portfolio-part2">
-        <section class="portfolio-part2-section1">
-          <article>
-            <h3><b>Tankattack</b></h3>
-            <br>
-            <p>🔢 TankAttack is a <b>multiplayer desktop game</b> that combines the classic "capture the flag" with the excitement of gun war games. It consists of two tanks, each with its own base, whose objective is to obtain the flag of the enemy base by going through a terrain full of walls, stones, holes and water with the help of a cannon. Players will be forced to face each other in a cannon duel to protect their respective flags 🤼.</p>
-            <br>
-            <p>📝 I created this game with the help of another person using <b>Java SE</b> and <b>Java Swing</b> 🌐.</p>
-          </article>
-        </section>
-      </div>
-      <div class="portfolio-shape-back-curve">
-      </div>
-    </div>
-    <div class="portfolio">
-      <div class="portfolio-part2">
-        <section class="portfolio-part2-section2">
-          <article>
-            <h3><b>Quicklist</b></h3>
-            <br>
-            <p>🔢 QuickList is an <b>information system</b> for the integration of administrative-academic responsibilities developed for SENA. It is focused on the management of failures, activities, qualifications, study plans and export of predefined class stage formats. It was thought of as a viable solution to the shortcomings identified in SENA when it comes to monitoring students in terms of time and accessibility. 🤼.</p>
-            <br>
-            <p>📝 I led this project and developed this system in a team of 3 people using <b>Java SE</b> for create all system and <b>SQL Server</b> to do all the data persistence 🌐.</p>
-          </article>
-        </section>
-      </div>
-      <div class="portfolio-part1">
-        <PhotoShapeRelative pathImage = "quicklist.jpg" :disableBack="true" title="QuickList"></PhotoShapeRelative>
-      </div>
-    </div>
+
   </div>
 </template>
 
@@ -161,7 +130,7 @@ export default {
   justify-content: center; 
   align-items: center;
   width: 100%;
-  height: 700px;
+  height: 800px;
   margin-top: -250px;
 }
 
@@ -171,7 +140,8 @@ export default {
 
 .portfolio-part1 {
   display: flex;
-  justify-content: center; 
+  justify-content: right; 
+  padding-right: 50px;
   align-items: center;
   width: 50%;
   height: 100%;
@@ -191,7 +161,8 @@ export default {
 
 .portfolio-part2 {
   display: flex;
-  justify-content: center; 
+  justify-content: left; 
+  padding-left: 50px;
   align-items: center;
   width: 50%;
   height: 100%;
@@ -207,8 +178,7 @@ export default {
   line-height : 35px;
   background-color: white;
   border: 3px solid var(--degrade3);    
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border-radius: 10px; 
   max-height: 250px;
   overflow: scroll;
 }
@@ -223,8 +193,7 @@ export default {
   line-height : 35px;
   background-color: white;
   border: 3px solid var(--degrade3);    
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;  
+  border-radius: 10px; 
   max-height: 250px;
   overflow: scroll;
 }
@@ -303,5 +272,22 @@ export default {
     padding-bottom: 60px;
     height: calc(100% - 160px);
   }
+}
+
+.description-lu {
+    list-style-type: none;
+}
+
+.description-lu > li {
+    margin-bottom: 10px; /* Espaciado entre elementos li */
+    position: relative;
+}
+
+.description-lu > li::before {
+    content: "👉🏻"; /* Reemplaza el emoji por el que desees */
+    display: inline-block;
+    margin-right: 8px; /* Espaciado entre el emoji y el texto */
+    position: absolute;
+    left: -2em; /* Alinea el emoji antes del comienzo del texto */
 }
 </style>
