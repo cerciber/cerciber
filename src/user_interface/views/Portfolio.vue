@@ -57,25 +57,22 @@
 
     <div class="portfolio">
       <div class="portfolio-part1">
-        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-bookxm.png" :disableBack="true" title="BookXM" 
+        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-updaty.png" :disableBack="true" title="Updaty" 
         :images="[
-          'portfolio-multimedia/main-bookxm.png',
-          'portfolio-multimedia/collage-bookxm.png'
+          'portfolio-multimedia/main-updaty.png',
+          'portfolio-multimedia/collage-updaty.png'
         ]"
       ></PhotoShapeRelative>
       </div>
       <div class="portfolio-part2">
         <section class="portfolio-part2-section1">
           <article>
-            <h3><b>BookXM (MarketXM)</b></h3>
-            <p>Creation of a platform for the management of financial credits of different types in a parametric way.</p>
+            <h3><b>Updaty</b></h3>
+            <p>Creation of NPM package to get and format internet real data with AI and keep it up to date.</p>
             <ul class="description-lu">
-                <li>Creation of functionalities in <b>Node.js</b> with <b>Javascript</b> and <b>Typescript</b>.</li>
-                <li>Management of <b>Prisma ORM</b> with <b>PostgreSQL</b>.</li>
-                <li>Development of <b>SPA</b> in <b>React.js</b>.</li>
-                <li>Implementation of <b>API-REST</b> and <b>Microservices</b> system using <b>Clean Architecture</b> and <b>Event-Driven Architecture</b> with <b>Kafka</b>.</li>
-                <li>Implementation of authentication and authorization mechanisms with <b>JWT</b>.</li>
-                <li>Configuration of <b>AWS</b> services such as: <b>IAM, S3, API Gateway, Lambda and Cloud Watch</b>. </li>
+                <li>Creation of <b>NPM</b> package with <b>Node.js</b> and <b>Javascript</b>.</li>
+                <li>Implementation of <b>ChatGPT AI</b> on Node.js to interpterate and format internet data results.</li>
+                <li>Use of <b>SQLite</b> to manage internet real data information.</li>
             </ul>
           </article>
         </section>
@@ -88,23 +85,262 @@
       <div class="portfolio-part1">
         <section class="portfolio-part2-section2">
           <article>
-            <h3><b>CollXM (MarketXM)</b></h3>
-            <p>Creation of a platform that allows the exchange of derivative financial services between different types of entities.</p>
+            <h3><b>Clean Architecture REST-API general template</b></h3>
+            <p>Creation of a template that allows standardizing the use of clean architecture with dynamic management of routes, generalization of authentication and authorization systems, dynamic creation of documentation and general error, validation and response handlers.</p>
             <ul class="description-lu">
-                <li>Creation of functionalities in <b>Node.js</b> with <b>Javascript</b>.</li>
-                <li>Management of <b>Sequelize ORM</b> and <b>Prisma ORM</b> with <b>PostgreSQL</b>.</li>
-                <li>Development of <b>SPA</b> in <b>React.js</b>.</li>
-                <li>Implementation of <b>API-REST</b> using <b>Clean Architecture</b>.</li>
-                <li>Implementation of authentication and authorization mechanisms with <b>JWT</b>.</li>
+                <li>Development of <b>Node.js</b> Clean architecture REST-API structure.</li>
+                <li>Applying linters, aliases, general response, errors general handler, middlewares, <b>swagger</b>, schemas, <b>OOP</b>, enviroment variables,  authentication and authorization with <b>JWT</b>, Encrypt passwords, nodemon and winston <b>Logger</b>.</li>
             </ul>
           </article>
         </section>
       </div>
       <div class="portfolio-part2">
-        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-collxm.png" :disableBack="true" title="CollXM"
+        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-rest-api.png" :disableBack="true" title="Clean Architecture REST-API general template"
         :images="[
-          'portfolio-multimedia/main-collxm.png',
-          'portfolio-multimedia/collage-collxm.png'
+          'portfolio-multimedia/main-rest-api.png',
+          'portfolio-multimedia/collage-rest-api.png'
+        ]"
+      ></PhotoShapeRelative>
+      </div>
+    </div>
+
+    <div class="portfolio">
+      <div class="portfolio-part1">
+        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-cerciberpage.png" :disableBack="true" title="Cerciber Webpage" 
+        :images="[
+          'portfolio-multimedia/main-cerciberpage.png',
+          'portfolio-multimedia/collage-cerciberpage.png'
+        ]"
+      ></PhotoShapeRelative>
+      </div>
+      <div class="portfolio-part2">
+        <section class="portfolio-part2-section1">
+          <article>
+            <h3><b>Cerciber Webpage</b></h3>
+            <p>Creation Single Page Application to show information about me.</p>
+            <ul class="description-lu">
+                <li>Design and development of a <b>SPA</b> on <b>Vue.js</b>.</li>
+                <li>Deployment with <b>Namecheap</b> and <b>GitHub Pages</b>.</li>
+            </ul>
+          </article>
+        </section>
+      </div>
+      <div class="portfolio-shape-back-curve">
+      </div>
+    </div>
+
+    <div class="portfolio">
+      <div class="portfolio-part1">
+        <section class="portfolio-part2-section2">
+          <article>
+            <h3><b>K-Boom (Nullspace)</b></h3>
+            <p>Creation of Android App to show interactive murals through the cell phone camera. </p>
+            <ul class="description-lu">
+                <li>Creation of <b>Android</b> App With <b>Java</b> and <b>Kotlin</b>. </li>
+                <li>Use of <b>Vuforia</b> and <b>C++</b> to allow the use of augmented reality.</li>
+                <li><b>XML</b> management for <b>UI</b> and <b>UX</b> design.</li>
+            </ul>
+          </article>
+        </section>
+      </div>
+      <div class="portfolio-part2">
+        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-k-boom.jpg" :disableBack="true" title="K-Boom"
+        :images="[
+          'portfolio-multimedia/main-k-boom.jpg',
+          'portfolio-multimedia/collage-video-k-boom.mp4',
+          'portfolio-multimedia/collage-k-boom.png'
+        ]"
+      ></PhotoShapeRelative>
+      </div>
+    </div>
+
+    <div class="portfolio">
+      <div class="portfolio-part1">
+        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-nullspacepage.png" :disableBack="true" title="Nullspace Webpage" 
+        :images="[
+          'portfolio-multimedia/main-nullspacepage.png',
+          'portfolio-multimedia/collage-video-homepage-nullspace.mp4',
+          'portfolio-multimedia/collage-nullspacepage.png'
+        ]"
+      ></PhotoShapeRelative>
+      </div>
+      <div class="portfolio-part2">
+        <section class="portfolio-part2-section1">
+          <article>
+            <h3><b>Nullspace Webpage (Nullspace)</b></h3>
+            <p>Creation of a single web application to show information about Nullspace company.</p>
+            <ul class="description-lu">
+                <li>Creation of a <b>SPA</b> on <b>Vue.js</b>.</li>
+                <li>Creation of part of the 3D environment, colors interactions and particles using <b>Three.js</b>.</li>
+            </ul>
+          </article>
+        </section>
+      </div>
+      <div class="portfolio-shape-back-curve">
+      </div>
+    </div>
+
+    <div class="portfolio">
+      <div class="portfolio-part1">
+        <section class="portfolio-part2-section2">
+          <article>
+            <h3><b>Time Detector System (Cycling & Race)</b></h3>
+            <p>Development of a system for detecting bicycles times and generating results tables in cycling races. </p>
+            <ul class="description-lu">
+                <li>Development of a <b>monolithic</b> system using <b>Java SE</b> and <b>Java FX</b>.</li>
+                <li>Administration of local information using <b>SQLite</b>.</li>
+            </ul>
+          </article>
+        </section>
+      </div>
+      <div class="portfolio-part2">
+        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-cycling.png" :disableBack="true" title="Time Detector System"
+        :images="[
+          'portfolio-multimedia/main-cycling.png',
+          'portfolio-multimedia/collage-cycling.png'
+        ]"
+      ></PhotoShapeRelative>
+      </div>
+    </div>
+
+    <div class="portfolio">
+      <div class="portfolio-part1">
+        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-sigmath.png" :disableBack="true" title="Sigmath" 
+        :images="[
+          'portfolio-multimedia/main-sigmath.png',
+          'portfolio-multimedia/collage-sigmath.png'
+        ]"
+      ></PhotoShapeRelative>
+      </div>
+      <div class="portfolio-part2">
+        <section class="portfolio-part2-section1">
+          <article>
+            <h3><b>Sigmath</b></h3>
+            <p>Development of a platform to create graphical and programmatic mathematics in an easy and intuitive way.</p>
+            <ul class="description-lu">
+                <li>Development of a <b>REST-API</b> with <b>Node.js</b> and <b>Express.js</b> and a <b>SPA</b> with <b>Vue.js</b> compiling <b>Python</b> and <b>LaTeX</b> using <b>5-layered architecture</b>.</li>
+                <li>Database administration with <b>PostgreSQL</b> and <b>Sequelize</b>.</li>
+            </ul>
+          </article>
+        </section>
+      </div>
+      <div class="portfolio-shape-back-curve">
+      </div>
+    </div>
+
+    <div class="portfolio">
+      <div class="portfolio-part1">
+        <section class="portfolio-part2-section2">
+          <article>
+            <h3><b>TrimCode</b></h3>
+            <p>Development of a desktop application to save and execute scripts from different programming languages.</p>
+            <ul class="description-lu">
+                <li>Development of a desktop application on <b>Java SE</b> to compile <b>C, C++, Python, Java, MathLab</b> and <b>Javascript</b>.</li>
+                <li>Use of <b>batch commands</b> to configure different type compilers.</li>
+            </ul>
+          </article>
+        </section>
+      </div>
+      <div class="portfolio-part2">
+        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-trimcode.png" :disableBack="true" title="TrimCode"
+        :images="[
+          'portfolio-multimedia/main-trimcode.png',
+          'portfolio-multimedia/collage-trimcode.png'
+        ]"
+      ></PhotoShapeRelative>
+      </div>
+    </div>
+
+    <div class="portfolio">
+      <div class="portfolio-part1">
+        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-structfile.png" :disableBack="true" title="StructFile" 
+        :images="[
+          'portfolio-multimedia/main-structfile.png',
+          'portfolio-multimedia/collage-structfile.png'
+        ]"
+      ></PhotoShapeRelative>
+      </div>
+      <div class="portfolio-part2">
+        <section class="portfolio-part2-section1">
+          <article>
+            <h3><b>StructFile</b></h3>
+            <p>Creation of a programming language based on filters and patterns to manage plain text, files and directories in the operating system.</p>
+            <ul class="description-lu">
+                <li>Design and development of a <b>programming language</b>.</li>
+                <li>Use of <b>Java SE, Python, ANTLR</b> and <b>RegEx</b> to implement lexical, syntactic and semantic logic.</li>
+            </ul>
+          </article>
+        </section>
+      </div>
+      <div class="portfolio-shape-back-curve">
+      </div>
+    </div>
+
+    <div class="portfolio">
+      <div class="portfolio-part1">
+        <section class="portfolio-part2-section2">
+          <article>
+            <h3><b>FindCode</b></h3>
+            <p>Development of a desktop application to save, manage and comment pieces of code interactively.</p>
+            <ul class="description-lu">
+                <li>Development of a desktop application on <b>Java SE</b>.</li>
+                <li>Connection with <b>MySQL</b> to manage all data persistence.</li>
+            </ul>
+          </article>
+        </section>
+      </div>
+      <div class="portfolio-part2">
+        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-findcode.png" :disableBack="true" title="FindCode"
+        :images="[
+          'portfolio-multimedia/main-findcode.png',
+          'portfolio-multimedia/collage-findcode.png'
+        ]"
+      ></PhotoShapeRelative>
+      </div>
+    </div>
+
+    <div class="portfolio">
+      <div class="portfolio-part1">
+        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-tankattack.jpeg" :disableBack="true" title="TankAttack" 
+        :images="[
+          'portfolio-multimedia/main-tankattack.jpeg',
+          'portfolio-multimedia/collage-tankattack.png'
+        ]"
+      ></PhotoShapeRelative>
+      </div>
+      <div class="portfolio-part2">
+        <section class="portfolio-part2-section1">
+          <article>
+            <h3><b>TankAttack</b></h3>
+            <p>Development of a local 2-player desktop game to play capture the flag with tanks.</p>
+            <ul class="description-lu">
+                <li>Development of a desktop game with <b>Java SE</b> and <b>Java Swing</b>.</li>
+            </ul>
+          </article>
+        </section>
+      </div>
+      <div class="portfolio-shape-back-curve">
+      </div>
+    </div>
+
+    <div class="portfolio">
+      <div class="portfolio-part1">
+        <section class="portfolio-part2-section2">
+          <article>
+            <h3><b>QuickList</b></h3>
+            <p>Creation of an information system for the integration of administrative-academic responsibilities on SENA.</p>
+            <ul class="description-lu">
+                <li>Creation of an information system on <b>Java SE</b>.</li>
+                <li>Connection with <b>SQLServer</b> to manage all data persistence.</li>
+            </ul>
+          </article>
+        </section>
+      </div>
+      <div class="portfolio-part2">
+        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-quicklist.png" :disableBack="true" title="QuickList"
+        :images="[
+          'portfolio-multimedia/main-quicklist.png',
+          'portfolio-multimedia/collage-quicklist.png'
         ]"
       ></PhotoShapeRelative>
       </div>
