@@ -154,7 +154,8 @@ export default {
   align-items: center;
   width: 50%;
   width: 50%;
-  height: 100%;
+  height: 600px;
+  transform: translateX(24px);
 }
 .photo-shape-picture-external-shpere {
   position: absolute;
@@ -233,6 +234,7 @@ export default {
 .photo-shape-picture-title h1 {
   color: var(--degrade3);
   transition: var(--color-transition-time);
+  font-size: 30px;
 }
 
 .overlay {
@@ -251,11 +253,9 @@ export default {
 /* Estilo para el contenido dentro del div */
 .content {
   max-width: 100%;
-  max-height: calc(60vh + 50px);
   min-width: 100%;
-  min-height: calc(60vh + 50px);
   width: 100%;
-  height: calc(60vh + 50px);
+  height: auto;
   color: white;
   text-align: center;
   font-size: 24px;
@@ -263,12 +263,17 @@ export default {
   overflow: hidden;
   padding: 0px;
   margin: 0px;
-  background-color: rgba(0, 0, 0, 0.2)
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .image {
   width: auto;
-  height: 60vh;
+  max-width: calc(100% - 80px);
+  height: auto;
+  max-height: 60vh;
   display: inline;
   border-radius: 10px;
 }

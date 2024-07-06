@@ -22,8 +22,8 @@
       <div class="header-nav-contact-me">
         <Button1 :contentText = "'Contact me'" redirectPath="/contactme"/>
       </div>
-      <div class="header-nav-menu" v-on:click="changeMenuState">
-        <div :class="'hamburguer-icon-cover ' + (openMenu ? 'hamburguer-icon-cover-show' : '')">
+      <div class="header-nav-menu">
+        <div :class="'hamburguer-icon-cover ' + (openMenu ? 'hamburguer-icon-cover-show' : '')"  v-on:click="changeMenuState">
           <div class="hamburguer-icon"></div>
         </div>
         <div :class="'header-nav-menu-list ' + (openMenu ? 'header-nav-menu-list-show' : 'header-nav-menu-list-hide')">
@@ -224,8 +224,9 @@ header {
 }
 
 .header-nav-menu-list-hide {
-  visibility: visible;
+  visibility: hidden;
   animation: fadeOutRight 0.3s ease-out forwards;
+  pointer-events: none;
 }
 
 @keyframes fadeOutRightAndTrim {

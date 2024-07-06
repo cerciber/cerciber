@@ -1,11 +1,38 @@
 <template>
   <div class="portfolio-content">
-    <div class="portfolio portfolio-first">
-      
-    </div>
-
-    <div class="portfolio">
       <div class="portfolio-part1">
+        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-bookxm.webp" :disableBack="true" title="BookXM" 
+        :images="[
+          'portfolio-multimedia/main-bookxm.webp',
+          'portfolio-multimedia/collage-bookxm.webp'
+        ]"
+      ></PhotoShapeRelative>
+      </div>
+      <div class="portfolio-part2">
+        <section class="portfolio-part2-section1">
+          <article>
+            <h3><b>BookXM (MarketXM)</b></h3>
+            <p>Creation of a platform for the management of financial credits of different types in a parametric way.</p>
+            <ul class="description-lu">
+                <li>Creation of functionalities in <b>Node.js</b> with <b>Javascript</b> and <b>Typescript</b>.</li>
+                <li>Management of <b>Prisma ORM</b> with <b>PostgreSQL</b>.</li>
+                <li>Development of <b>SPA</b> in <b>React.js</b>.</li>
+                <li>Implementation of <b>API-REST</b> and <b>Microservices</b> system using <b>Clean Architecture</b> and <b>Event-Driven Architecture</b> with <b>Kafka</b>.</li>
+                <li>Implementation of authentication and authorization mechanisms with <b>JWT</b>.</li>
+                <li>Configuration of <b>AWS</b> services such as: <b>IAM, S3, API Gateway, Lambda and Cloud Watch</b>. </li>
+            </ul>
+          </article>
+        </section>
+      </div>
+      <div class="portfolio-part1">
+        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-collxm.webp" :disableBack="true" title="CollXM"
+        :images="[
+          'portfolio-multimedia/main-collxm.webp',
+          'portfolio-multimedia/collage-collxm.webp'
+        ]"
+      ></PhotoShapeRelative>
+      </div>
+      <div class="portfolio-part2">
         <section class="portfolio-part2-section2">
           <article>
             <h3><b>CollXM (MarketXM)</b></h3>
@@ -20,17 +47,6 @@
           </article>
         </section>
       </div>
-      <div class="portfolio-part2">
-        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-collxm.webp" :disableBack="true" title="CollXM"
-        :images="[
-          'portfolio-multimedia/main-collxm.webp',
-          'portfolio-multimedia/collage-collxm.webp'
-        ]"
-      ></PhotoShapeRelative>
-      </div>
-    </div>
-
-    <div class="portfolio">
       <div class="portfolio-part1">
         <PhotoShapeRelative pathImage = "portfolio-multimedia/main-updaty.webp" :disableBack="true" title="Updaty" 
         :images="[
@@ -52,12 +68,15 @@
           </article>
         </section>
       </div>
-      <div class="portfolio-shape-back-curve">
-      </div>
-    </div>
-
-    <div class="portfolio">
       <div class="portfolio-part1">
+        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-rest-api.webp" :disableBack="true" title="Clean Architecture REST-API general template"
+        :images="[
+          'portfolio-multimedia/main-rest-api.webp',
+          'portfolio-multimedia/collage-rest-api.webp'
+        ]"
+      ></PhotoShapeRelative>
+      </div>
+      <div class="portfolio-part2">
         <section class="portfolio-part2-section2">
           <article>
             <h3><b>Clean Architecture REST-API general template</b></h3>
@@ -69,17 +88,6 @@
           </article>
         </section>
       </div>
-      <div class="portfolio-part2">
-        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-rest-api.webp" :disableBack="true" title="Clean Architecture REST-API general template"
-        :images="[
-          'portfolio-multimedia/main-rest-api.webp',
-          'portfolio-multimedia/collage-rest-api.webp'
-        ]"
-      ></PhotoShapeRelative>
-      </div>
-    </div>
-
-    <div class="portfolio">
       <div class="portfolio-part1">
         <PhotoShapeRelative pathImage = "portfolio-multimedia/main-cerciberpage.webp" :disableBack="true" title="Cerciber Webpage" 
         :images="[
@@ -100,12 +108,16 @@
           </article>
         </section>
       </div>
-      <div class="portfolio-shape-back-curve">
-      </div>
-    </div>
-
-    <div class="portfolio">
       <div class="portfolio-part1">
+        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-k-boom.webp" :disableBack="true" title="K-Boom"
+        :images="[
+          'portfolio-multimedia/main-k-boom.webp',
+          'portfolio-multimedia/collage-video-k-boom.mp4',
+          'portfolio-multimedia/collage-k-boom.webp'
+        ]"
+      ></PhotoShapeRelative>
+      </div>
+      <div class="portfolio-part2">
         <section class="portfolio-part2-section2">
           <article>
             <h3><b>K-Boom (Nullspace)</b></h3>
@@ -118,18 +130,6 @@
           </article>
         </section>
       </div>
-      <div class="portfolio-part2">
-        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-k-boom.webp" :disableBack="true" title="K-Boom"
-        :images="[
-          'portfolio-multimedia/main-k-boom.webp',
-          'portfolio-multimedia/collage-video-k-boom.mp4',
-          'portfolio-multimedia/collage-k-boom.webp'
-        ]"
-      ></PhotoShapeRelative>
-      </div>
-    </div>
-
-    <div class="portfolio">
       <div class="portfolio-part1">
         <PhotoShapeRelative pathImage = "portfolio-multimedia/main-nullspacepage.webp" :disableBack="true" title="Nullspace Webpage" 
         :images="[
@@ -151,12 +151,15 @@
           </article>
         </section>
       </div>
-      <div class="portfolio-shape-back-curve">
-      </div>
-    </div>
-
-    <div class="portfolio">
       <div class="portfolio-part1">
+        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-cycling.webp" :disableBack="true" title="Time Detector System"
+        :images="[
+          'portfolio-multimedia/main-cycling.webp',
+          'portfolio-multimedia/collage-cycling.webp'
+        ]"
+      ></PhotoShapeRelative>
+      </div>
+      <div class="portfolio-part2">
         <section class="portfolio-part2-section2">
           <article>
             <h3><b>Time Detector System (Cycling & Race)</b></h3>
@@ -168,17 +171,6 @@
           </article>
         </section>
       </div>
-      <div class="portfolio-part2">
-        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-cycling.webp" :disableBack="true" title="Time Detector System"
-        :images="[
-          'portfolio-multimedia/main-cycling.webp',
-          'portfolio-multimedia/collage-cycling.webp'
-        ]"
-      ></PhotoShapeRelative>
-      </div>
-    </div>
-
-    <div class="portfolio">
       <div class="portfolio-part1">
         <PhotoShapeRelative pathImage = "portfolio-multimedia/main-sigmath.webp" :disableBack="true" title="Sigmath" 
         :images="[
@@ -199,13 +191,16 @@
           </article>
         </section>
       </div>
-      <div class="portfolio-shape-back-curve">
-      </div>
-    </div>
-
-    <div class="portfolio">
       <div class="portfolio-part1">
-        <section class="portfolio-part2-section2">
+        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-trimcode.webp" :disableBack="true" title="TrimCode"
+        :images="[
+          'portfolio-multimedia/main-trimcode.webp',
+          'portfolio-multimedia/collage-trimcode.webp'
+        ]"
+      ></PhotoShapeRelative>
+      </div>
+      <div class="portfolio-part2">
+      <section class="portfolio-part2-section2">
           <article>
             <h3><b>TrimCode</b></h3>
             <p>Development of a desktop application to save and execute scripts from different programming languages.</p>
@@ -216,17 +211,6 @@
           </article>
         </section>
       </div>
-      <div class="portfolio-part2">
-        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-trimcode.webp" :disableBack="true" title="TrimCode"
-        :images="[
-          'portfolio-multimedia/main-trimcode.webp',
-          'portfolio-multimedia/collage-trimcode.webp'
-        ]"
-      ></PhotoShapeRelative>
-      </div>
-    </div>
-
-    <div class="portfolio">
       <div class="portfolio-part1">
         <PhotoShapeRelative pathImage = "portfolio-multimedia/main-structfile.webp" :disableBack="true" title="StructFile" 
         :images="[
@@ -247,12 +231,15 @@
           </article>
         </section>
       </div>
-      <div class="portfolio-shape-back-curve">
-      </div>
-    </div>
-
-    <div class="portfolio">
       <div class="portfolio-part1">
+        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-findcode.webp" :disableBack="true" title="FindCode"
+        :images="[
+          'portfolio-multimedia/main-findcode.webp',
+          'portfolio-multimedia/collage-findcode.webp'
+        ]"
+      ></PhotoShapeRelative>
+      </div>
+      <div class="portfolio-part2">
         <section class="portfolio-part2-section2">
           <article>
             <h3><b>FindCode</b></h3>
@@ -264,17 +251,6 @@
           </article>
         </section>
       </div>
-      <div class="portfolio-part2">
-        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-findcode.webp" :disableBack="true" title="FindCode"
-        :images="[
-          'portfolio-multimedia/main-findcode.webp',
-          'portfolio-multimedia/collage-findcode.webp'
-        ]"
-      ></PhotoShapeRelative>
-      </div>
-    </div>
-
-    <div class="portfolio">
       <div class="portfolio-part1">
         <PhotoShapeRelative pathImage = "portfolio-multimedia/main-tankattack.webp" :disableBack="true" title="TankAttack" 
         :images="[
@@ -294,12 +270,15 @@
           </article>
         </section>
       </div>
-      <div class="portfolio-shape-back-curve">
-      </div>
-    </div>
-
-    <div class="portfolio">
       <div class="portfolio-part1">
+        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-quicklist.webp" :disableBack="true" title="QuickList"
+        :images="[
+          'portfolio-multimedia/main-quicklist.webp',
+          'portfolio-multimedia/collage-quicklist.webp'
+        ]"
+      ></PhotoShapeRelative>
+      </div>
+      <div class="portfolio-part2">
         <section class="portfolio-part2-section2">
           <article>
             <h3><b>QuickList</b></h3>
@@ -311,16 +290,8 @@
           </article>
         </section>
       </div>
-      <div class="portfolio-part2">
-        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-quicklist.webp" :disableBack="true" title="QuickList"
-        :images="[
-          'portfolio-multimedia/main-quicklist.webp',
-          'portfolio-multimedia/collage-quicklist.webp'
-        ]"
-      ></PhotoShapeRelative>
+      <div class="portfolio-shape-back-curve">
       </div>
-    </div>
-
   </div>
 </template>
 
@@ -336,85 +307,39 @@ export default {
 </script>
 
 <style scoped>
-.portfolio {
-  display: flex;
-  justify-content: center; 
-  align-items: center;
-  width: 100%;
-  height: 750px;
-  margin-top: -250px;
-}
-
-.portfolio-first {
-  margin-top: 0px;
+.portfolio-content {
+  height: calc(100% - 160px);
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .portfolio-part1 {
   display: flex;
-  justify-content: right; 
-  padding-right: 100px;
+  flex-direction: column;
   align-items: center;
-  width: 50%;
-  height: 100%;
-
-  opacity: 0;
-  animation: fadeInRight 1s ease-out forwards;
-}
-
-.portfolio-part1-section1 {
-  z-index: 100;
-  padding: 20px;
-  margin-top: 30%;
-  margin-bottom: 30%;
-  margin-left: 50px;
-  line-height : 35px;
-  background-color: white;
-  border: 3px solid var(--degrade3);    
-  transition: var(--color-transition-time);
-  border-radius: 20px;
-}
-
-.portfolio-part2 {
-  display: flex;
-  justify-content: left; 
-  padding-left: 50px;
-  align-items: center;
-  width: 50%;
-  height: 100%;
-
-  opacity: 0;
-  animation: fadeInLeft 1s ease-out forwards;
 }
 
 .portfolio-part2-section1 {
   z-index: 100;
   padding: 20px;
-  margin-top: 30%;
-  margin-bottom: 30%;
-  margin-right: 50px;
-  margin-left: 50px;
+  margin: 20px;
   line-height : 35px;
   background-color: white;
   border: 3px solid var(--degrade3);    
   transition: var(--color-transition-time);
   border-radius: 10px; 
-  max-height: 250px;
   overflow: scroll;
 }
 
 .portfolio-part2-section2 {
   z-index: 100;
   padding: 20px;
-  margin-top: 30%;
-  margin-bottom: 30%;
-  margin-right: 50px;
-  margin-left: 50px;
+  margin: 20px;
   line-height : 35px;
   background-color: white;
   border: 3px solid var(--degrade3);    
   transition: var(--color-transition-time);
   border-radius: 10px; 
-  max-height: 250px;
   overflow: scroll;
 }
 
@@ -447,51 +372,7 @@ export default {
 
 .portfolio-content {
   width: 100%;
-  height: 100%;
   overflow: scroll;
-}
-
-@media only screen and ((max-width: 900px) or (max-height: 600px)) {
-
-  .portfolio {
-    display: block;
-    margin: 0px;
-    height: auto;
-    padding: 0px;
-  }
-
-  .portfolio-part1 {
-    visibility: hidden;
-  }
-
-  .portfolio-part2 {
-    min-width: 100%;
-    max-width: 100%;
-    margin: 0px;
-    padding: 0px;
-  }
-
-  .portfolio-part2-section1 {
-    margin: 50px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    overflow: auto;
-    max-height: max-content;
-  }
-
-  .portfolio-part2-section2 {
-    margin: 50px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    overflow: auto;
-    max-height: max-content;
-  }
-
-  .portfolio-content {
-    padding-top: 100px;
-    padding-bottom: 60px;
-    height: calc(100% - 160px);
-  }
 }
 
 .description-lu {
