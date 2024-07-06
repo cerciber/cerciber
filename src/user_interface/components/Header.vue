@@ -184,7 +184,7 @@ header {
 
   background: white;
 
-  mask-image: url('~@/user_interface/assets/Hamburger_icon.png');
+  mask-image: url('~@/user_interface/assets/Hamburger_icon.webp');
 }
 
 .header-nav-menu-list {

@@ -107,10 +107,10 @@ export default {
   background: var(--degrade1);
   background: linear-gradient(63deg, var(--degrade1) 0%, var(--degrade2) 70%);
 
-  mask-image: url('~@/user_interface/assets/Curve.png');
+  mask-image: url('~@/user_interface/assets/Curve.webp');
   z-index: -1;
 
-  shape-outside: url('~@/user_interface/assets/Curve.png');
+  shape-outside: url('~@/user_interface/assets/Curve.webp');
   shape-image-threshold: 0.5;
   shape-margin: 20px;
   float: left;

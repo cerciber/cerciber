@@ -14,7 +14,7 @@
       </section>
     </div>
     <div class="whoami-part2">
-      <PhotoShape pathImage = "Foto.jpg"></PhotoShape>
+      <PhotoShape pathImage = "Foto.webp"></PhotoShape>
     </div>
   </div>
 </template>

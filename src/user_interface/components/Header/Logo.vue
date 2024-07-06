@@ -1,7 +1,7 @@
 <template>
   <div class="logo" v-on:click="redirect">
     <div class="logo-mask"></div>
-    <img src="../../assets/LogoText.png" class="logo-text">
+    <img src="../../assets/LogoText.webp" class="logo-text">
   </div>
 </template>
 
@@ -48,7 +48,7 @@ export default {
   background: var(--degrade1);
   background: linear-gradient(63deg, var(--degrade1) 10%, var(--degrade2) 30%);
 
-  mask-image: url('~@/user_interface/assets/LogoMask.png');
+  mask-image: url('~@/user_interface/assets/LogoMask.webp');
 }
 
 .logo-text {

@@ -2,10 +2,10 @@
   <div class="portfolio-content">
     <div class="portfolio portfolio-first">
       <div class="portfolio-part1">
-        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-bookxm.png" :disableBack="true" title="BookXM" 
+        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-bookxm.webp" :disableBack="true" title="BookXM" 
         :images="[
-          'portfolio-multimedia/main-bookxm.png',
-          'portfolio-multimedia/collage-bookxm.png'
+          'portfolio-multimedia/main-bookxm.webp',
+          'portfolio-multimedia/collage-bookxm.webp'
         ]"
       ></PhotoShapeRelative>
       </div>
@@ -46,10 +46,10 @@
         </section>
       </div>
       <div class="portfolio-part2">
-        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-collxm.png" :disableBack="true" title="CollXM"
+        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-collxm.webp" :disableBack="true" title="CollXM"
         :images="[
-          'portfolio-multimedia/main-collxm.png',
-          'portfolio-multimedia/collage-collxm.png'
+          'portfolio-multimedia/main-collxm.webp',
+          'portfolio-multimedia/collage-collxm.webp'
         ]"
       ></PhotoShapeRelative>
       </div>
@@ -57,10 +57,10 @@
 
     <div class="portfolio">
       <div class="portfolio-part1">
-        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-updaty.png" :disableBack="true" title="Updaty" 
+        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-updaty.webp" :disableBack="true" title="Updaty" 
         :images="[
-          'portfolio-multimedia/main-updaty.png',
-          'portfolio-multimedia/collage-updaty.png'
+          'portfolio-multimedia/main-updaty.webp',
+          'portfolio-multimedia/collage-updaty.webp'
         ]"
       ></PhotoShapeRelative>
       </div>
@@ -95,10 +95,10 @@
         </section>
       </div>
       <div class="portfolio-part2">
-        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-rest-api.png" :disableBack="true" title="Clean Architecture REST-API general template"
+        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-rest-api.webp" :disableBack="true" title="Clean Architecture REST-API general template"
         :images="[
-          'portfolio-multimedia/main-rest-api.png',
-          'portfolio-multimedia/collage-rest-api.png'
+          'portfolio-multimedia/main-rest-api.webp',
+          'portfolio-multimedia/collage-rest-api.webp'
         ]"
       ></PhotoShapeRelative>
       </div>
@@ -106,10 +106,10 @@
 
     <div class="portfolio">
       <div class="portfolio-part1">
-        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-cerciberpage.png" :disableBack="true" title="Cerciber Webpage" 
+        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-cerciberpage.webp" :disableBack="true" title="Cerciber Webpage" 
         :images="[
-          'portfolio-multimedia/main-cerciberpage.png',
-          'portfolio-multimedia/collage-cerciberpage.png'
+          'portfolio-multimedia/main-cerciberpage.webp',
+          'portfolio-multimedia/collage-cerciberpage.webp'
         ]"
       ></PhotoShapeRelative>
       </div>
@@ -144,11 +144,11 @@
         </section>
       </div>
       <div class="portfolio-part2">
-        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-k-boom.jpg" :disableBack="true" title="K-Boom"
+        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-k-boom.webp" :disableBack="true" title="K-Boom"
         :images="[
-          'portfolio-multimedia/main-k-boom.jpg',
+          'portfolio-multimedia/main-k-boom.webp',
           'portfolio-multimedia/collage-video-k-boom.mp4',
-          'portfolio-multimedia/collage-k-boom.png'
+          'portfolio-multimedia/collage-k-boom.webp'
         ]"
       ></PhotoShapeRelative>
       </div>
@@ -156,11 +156,11 @@
 
     <div class="portfolio">
       <div class="portfolio-part1">
-        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-nullspacepage.png" :disableBack="true" title="Nullspace Webpage" 
+        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-nullspacepage.webp" :disableBack="true" title="Nullspace Webpage" 
         :images="[
-          'portfolio-multimedia/main-nullspacepage.png',
+          'portfolio-multimedia/main-nullspacepage.webp',
           'portfolio-multimedia/collage-video-homepage-nullspace.mp4',
-          'portfolio-multimedia/collage-nullspacepage.png'
+          'portfolio-multimedia/collage-nullspacepage.webp'
         ]"
       ></PhotoShapeRelative>
       </div>
@@ -194,10 +194,10 @@
         </section>
       </div>
       <div class="portfolio-part2">
-        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-cycling.png" :disableBack="true" title="Time Detector System"
+        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-cycling.webp" :disableBack="true" title="Time Detector System"
         :images="[
-          'portfolio-multimedia/main-cycling.png',
-          'portfolio-multimedia/collage-cycling.png'
+          'portfolio-multimedia/main-cycling.webp',
+          'portfolio-multimedia/collage-cycling.webp'
         ]"
       ></PhotoShapeRelative>
       </div>
@@ -205,10 +205,10 @@
 
     <div class="portfolio">
       <div class="portfolio-part1">
-        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-sigmath.png" :disableBack="true" title="Sigmath" 
+        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-sigmath.webp" :disableBack="true" title="Sigmath" 
         :images="[
-          'portfolio-multimedia/main-sigmath.png',
-          'portfolio-multimedia/collage-sigmath.png'
+          'portfolio-multimedia/main-sigmath.webp',
+          'portfolio-multimedia/collage-sigmath.webp'
         ]"
       ></PhotoShapeRelative>
       </div>
@@ -242,10 +242,10 @@
         </section>
       </div>
       <div class="portfolio-part2">
-        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-trimcode.png" :disableBack="true" title="TrimCode"
+        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-trimcode.webp" :disableBack="true" title="TrimCode"
         :images="[
-          'portfolio-multimedia/main-trimcode.png',
-          'portfolio-multimedia/collage-trimcode.png'
+          'portfolio-multimedia/main-trimcode.webp',
+          'portfolio-multimedia/collage-trimcode.webp'
         ]"
       ></PhotoShapeRelative>
       </div>
@@ -253,10 +253,10 @@
 
     <div class="portfolio">
       <div class="portfolio-part1">
-        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-structfile.png" :disableBack="true" title="StructFile" 
+        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-structfile.webp" :disableBack="true" title="StructFile" 
         :images="[
-          'portfolio-multimedia/main-structfile.png',
-          'portfolio-multimedia/collage-structfile.png'
+          'portfolio-multimedia/main-structfile.webp',
+          'portfolio-multimedia/collage-structfile.webp'
         ]"
       ></PhotoShapeRelative>
       </div>
@@ -290,10 +290,10 @@
         </section>
       </div>
       <div class="portfolio-part2">
-        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-findcode.png" :disableBack="true" title="FindCode"
+        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-findcode.webp" :disableBack="true" title="FindCode"
         :images="[
-          'portfolio-multimedia/main-findcode.png',
-          'portfolio-multimedia/collage-findcode.png'
+          'portfolio-multimedia/main-findcode.webp',
+          'portfolio-multimedia/collage-findcode.webp'
         ]"
       ></PhotoShapeRelative>
       </div>
@@ -301,10 +301,10 @@
 
     <div class="portfolio">
       <div class="portfolio-part1">
-        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-tankattack.jpeg" :disableBack="true" title="TankAttack" 
+        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-tankattack.webp" :disableBack="true" title="TankAttack" 
         :images="[
-          'portfolio-multimedia/main-tankattack.jpeg',
-          'portfolio-multimedia/collage-tankattack.png'
+          'portfolio-multimedia/main-tankattack.webp',
+          'portfolio-multimedia/collage-tankattack.webp'
         ]"
       ></PhotoShapeRelative>
       </div>
@@ -337,10 +337,10 @@
         </section>
       </div>
       <div class="portfolio-part2">
-        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-quicklist.png" :disableBack="true" title="QuickList"
+        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-quicklist.webp" :disableBack="true" title="QuickList"
         :images="[
-          'portfolio-multimedia/main-quicklist.png',
-          'portfolio-multimedia/collage-quicklist.png'
+          'portfolio-multimedia/main-quicklist.webp',
+          'portfolio-multimedia/collage-quicklist.webp'
         ]"
       ></PhotoShapeRelative>
       </div>
@@ -452,10 +452,10 @@ export default {
   background: var(--degrade1);
   background: linear-gradient(63deg, var(--degrade1) 0%, var(--degrade2) 70%);
 
-  mask-image: url('~@/user_interface/assets/Curve.png');
+  mask-image: url('~@/user_interface/assets/Curve.webp');
   z-index: -1;
 
-  shape-outside: url('~@/user_interface/assets/Curve.png');
+  shape-outside: url('~@/user_interface/assets/Curve.webp');
   shape-image-threshold: 0.5;
   shape-margin: 20px;
   float: left;

@@ -59,7 +59,7 @@ export default {
   background: var(--degrade1);
   background: linear-gradient(63deg, var(--degrade1) 0%, var(--degrade2) 80%);
 
-  mask-image: url('~@/user_interface/assets/MenuItemt.png');
+  mask-image: url('~@/user_interface/assets/MenuItemt.webp');
 }
 
 .select-menu-item-aux1 {
@@ -81,7 +81,7 @@ export default {
   background: var(--degrade3);
   background: linear-gradient(0deg, var(--degrade3) 0%, var(--degrade4) 60%);
 
-  mask-image: url('~@/user_interface/assets/MenuItemtAux1.png');
+  mask-image: url('~@/user_interface/assets/MenuItemtAux1.webp');
 }
 
 .select-menu-item-aux2 {
@@ -103,7 +103,7 @@ export default {
   background: var(--degrade3);
   background: linear-gradient(63deg, var(--degrade3) 0%, var(--degrade4) 70%);
 
-  mask-image: url('~@/user_interface/assets/MenuItemtAux2.png');
+  mask-image: url('~@/user_interface/assets/MenuItemtAux2.webp');
 }
 
 .select-menu-item-text {

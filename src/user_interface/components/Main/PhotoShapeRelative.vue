@@ -67,7 +67,7 @@ export default {
           code: 'f230fh0g3',
           name: 'Bamboo Watch',
           description: 'Product Description',
-          image: 'bamboo-watch.jpg',
+          image: 'bamboo-watch.webp',
           price: 65,
           category: 'Accessories',
           quantity: 24,
@@ -138,10 +138,10 @@ export default {
   background: var(--degrade1);
   background: linear-gradient(63deg, var(--degrade1) 0%, var(--degrade2) 70%);
 
-  mask-image: url('~@/user_interface/assets/Curve.png');
+  mask-image: url('~@/user_interface/assets/Curve.webp');
   z-index: -1;
 
-  shape-outside: url('~@/user_interface/assets/Curve.png');
+  shape-outside: url('~@/user_interface/assets/Curve.webp');
   shape-image-threshold: 0.5;
   shape-margin: 20px;
   float: left;
@@ -172,7 +172,7 @@ export default {
   mask-position: center;
   
   background: var(--back-bar2);
-  mask-image: url('~@/user_interface/assets/BackgroundSphere.png');
+  mask-image: url('~@/user_interface/assets/BackgroundSphere.webp');
 }
 
 .photo-shape-picture-internal-shpere {

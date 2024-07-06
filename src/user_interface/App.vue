@@ -147,7 +147,7 @@ p, li {
   
   background: var(--back-sphere2);
 
-  mask-image: url('~@/user_interface/assets/BackgroundSphere.png');
+  mask-image: url('~@/user_interface/assets/BackgroundSphere.webp');
   overflow: hidden;
   
 }

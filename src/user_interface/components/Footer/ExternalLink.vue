@@ -49,22 +49,22 @@ export default {
 }
 
 .external-link-linkedin {
-  mask-image: url('~@/user_interface/assets/logo-linkedin.png');
+  mask-image: url('~@/user_interface/assets/logo-linkedin.webp');
 }
 
 .external-link-github {
-  mask-image: url('~@/user_interface/assets/logo-github.png');
+  mask-image: url('~@/user_interface/assets/logo-github.webp');
 }
 
 .external-link-mail {
-  mask-image: url('~@/user_interface/assets/logo-mail.png');
+  mask-image: url('~@/user_interface/assets/logo-mail.webp');
 }
 
 .external-link-tiktok {
-  mask-image: url('~@/user_interface/assets/logo-tiktok.png');
+  mask-image: url('~@/user_interface/assets/logo-tiktok.webp');
 }
 
 .external-link-twitter {
-  mask-image: url('~@/user_interface/assets/logo-twitter.png');
+  mask-image: url('~@/user_interface/assets/logo-twitter.webp');
 }
 </style>
