@@ -90,6 +90,7 @@ header {
   height: 43px;
   width: 100%;
   background-color: var(--back-bar);
+  transition: var(--color-transition-time);
   z-index: -1;
 }
 

@@ -309,6 +309,7 @@ p, li {
   mask-position: center;
   
   background: var(--back-sphere2);
+  transition: var(--color-transition-time);
 
   mask-image: url('~@/user_interface/assets/BackgroundSphere.webp');
   overflow: hidden;

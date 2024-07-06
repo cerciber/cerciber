@@ -89,6 +89,7 @@ export default {
   
   background: var(--back-bar2);
   mask-image: url('~@/user_interface/assets/BackgroundSphere.webp');
+  transition: var(--color-transition-time);
 }
 
 .photo-shape-picture-internal-shpere {
@@ -108,7 +109,7 @@ export default {
   border-radius:50%;
   -moz-border-radius:50%;
   -webkit-border-radius:50%;
-  transition: var(--transition-time);
+  transition: var(--color-transition-time);
 }
 
 .photo-shape-picture-internal-shpere:hover {
