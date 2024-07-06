@@ -1,17 +1,14 @@
 <template>
   <div class="CV">
-    <vue-pdf-embed source="CV.pdf"></vue-pdf-embed>
+    <embed src="CV.pdf" type="application/pdf" width="100%" height="100%" />
   </div>
 </template>
 
 <script>
-import VuePdfEmbed from 'vue-pdf-embed'
 
 export default {
   name: 'CVView',
-  components: {
-    VuePdfEmbed
-  }
+  components: {}
 }
 </script>
 
