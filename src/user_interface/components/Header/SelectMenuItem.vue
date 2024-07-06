@@ -57,7 +57,7 @@ export default {
   mask-position: center;
   
   background: var(--degrade1);
- transition: var(--transition-time);
+  transition: var(--color-transition-time);
 
   mask-image: url('~@/user_interface/assets/MenuItemt.webp');
 }
@@ -79,7 +79,7 @@ export default {
   mask-position: center;
   
   background: var(--degrade3);
- transition: var(--transition-time);
+  transition: var(--color-transition-time);
 
   mask-image: url('~@/user_interface/assets/MenuItemtAux1.webp');
 }
@@ -101,7 +101,7 @@ export default {
   mask-position: center;
   
   background: var(--degrade3);
- transition: var(--transition-time);
+  transition: var(--color-transition-time);
 
   mask-image: url('~@/user_interface/assets/MenuItemtAux2.webp');
 }

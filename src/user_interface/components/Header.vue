@@ -26,18 +26,21 @@
         <div :class="'hamburguer-icon-cover ' + (openMenu ? 'hamburguer-icon-cover-show' : '')">
           <div class="hamburguer-icon"></div>
         </div>
-        <div :class="'header-nav-menu-list ' + (openMenu ? 'header-nav-menu-list-show' : '')">
-          <ul class="header-nav-items-ul"> 
+        <div :class="'header-nav-menu-list ' + (openMenu ? 'header-nav-menu-list-show' : 'header-nav-menu-list-hide')">
+          <ul class="header-nav-items-ul-menu"> 
             <SelectMenuItem  contentText = "Who am I" redirectPath="/whoami"/>
           </ul>
-          <ul class="header-nav-items-ul"> 
+          <ul class="header-nav-items-ul-menu"> 
             <SelectMenuItem  contentText = "Portfolio" redirectPath="/portfolio" :activeAux1 = "true"/>
           </ul>
-          <ul class="header-nav-items-ul"> 
+          <ul class="header-nav-items-ul-menu"> 
             <SelectMenuItem  contentText = "CV" redirectPath="/cv"/>
           </ul>
-          <ul class="header-nav-items-ul"> 
+          <ul class="header-nav-items-ul-menu"> 
             <SelectMenuItem  contentText = "Pillars" redirectPath="/pillars" :activeAux2 = "true"/>
+          </ul>
+          <ul class="header-nav-items-ul-menu"> 
+            <SelectMenuItem  contentText = "Contact me" redirectPath="/contactme"/>
           </ul>
         </div>
       </div>
@@ -127,12 +130,8 @@ header {
   min-width: 0px;
   max-width: 0px;
   visibility: hidden;
- transition: var(--transition-time);
+  transition: var(--transition-time);
   cursor: pointer;
-}
-
-.header-nav-menu:hover {
-  scale: 1.1;
 }
 
 .header-nav-items-ul {
@@ -144,16 +143,30 @@ header {
   margin-left: 15px;
   margin-right: 15px;
   margin-top: 3px;
- transition: var(--transition-time);
+  transition: var(--transition-time);
   cursor: pointer;
+  
 }
 
 .header-nav-items-ul:hover {
   scale: 1.1;
 }
 
-.header-nav-items-ul:focus {
-  background-color: red;
+.header-nav-items-ul-menu {
+  float: left;
+  height: 100%;
+  width: 0px;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 3px;
+  transition: var(--transition-time);
+  cursor: pointer;
+}
+
+.header-nav-items-ul-menu:hover {
+  scale: 1.1;
 }
 
 .hamburguer-icon-cover {
@@ -194,16 +207,36 @@ header {
   visibility: hidden;
   position: absolute;
   display: grid;
-  height: 300px;
-  margin-top: 400px;
+  height: 500px;
+  margin-top: 615px;
   margin-right: 40px;
   background-color: var(--back-bar);
   padding-top: 60px;
-  border-radius: 10px;
+  border-radius: 0px 0px 10px 10px;
 }
 
 .header-nav-menu-list-show {
   visibility: visible;
+
+  opacity: 0;
+  animation: fadeInLeft 0.3s ease-out forwards;
+}
+
+.header-nav-menu-list-hide {
+  visibility: visible;
+  animation: fadeOutRight 0.3s ease-out forwards;
+}
+
+@keyframes fadeOutRightAndTrim {
+  0% {}
+  100% {
+    opacity: 0;
+    transform: translateX(20px);
+    min-width: 0px;
+    max-width: 0px;
+    min-width: 0px;
+    width: 0px;
+  }
 }
 
 @media only screen and (max-width: 900px) {
@@ -212,14 +245,16 @@ header {
   }
 
   .header-nav-items-ul {
-    width: 0px;
-    transition: 0.0s;
+    animation: fadeOutRightAndTrim 0.3s ease-out forwards;
+  }
+
+  .header-nav-items-ul-menu {
+    cursor: default;
   }
 
   .header-nav-contact-me {
     visibility: hidden;
-    min-width: 0px;
-    max-width: 0px;
+    animation: fadeOutRightAndTrim 0.3s ease-out forwards;
   }
 
   .header-nav-menu {
@@ -229,6 +264,7 @@ header {
     align-items: center;
     min-width: 100px;
     max-width: 100px;
+    cursor: default;
   }
 
 }

@@ -52,7 +52,7 @@ export default {
   mask-position: center;
   
   background: var(--degrade2);
- transition: var(--transition-time);
+  transition: var(--color-transition-time);
 
   mask-image: url('~@/user_interface/assets/Curve.webp');
   z-index: -1;
@@ -61,8 +61,6 @@ export default {
   shape-image-threshold: 0.5;
   shape-margin: 20px;
   float: left;
-
- transition: var(--transition-time);
 }
 
 .photo-shape-picture-external-shpere-space {
@@ -110,7 +108,7 @@ export default {
   border-radius:50%;
   -moz-border-radius:50%;
   -webkit-border-radius:50%;
- transition: var(--transition-time);
+  transition: var(--transition-time);
 }
 
 .photo-shape-picture-internal-shpere:hover {

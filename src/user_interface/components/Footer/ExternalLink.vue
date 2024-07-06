@@ -45,7 +45,7 @@ export default {
   mask-position: center;
 
   background: var(--degrade1);
- transition: var(--transition-time);
+  transition: var(--color-transition-time);
 }
 
 .external-link-linkedin {

@@ -151,7 +151,7 @@ export default {
   mask-position: center;
   
   background: var(--degrade1);
- transition: var(--transition-time);
+  transition: var(--color-transition-time);
 
   mask-image: url('~@/user_interface/assets/Curve.webp');
   z-index: -1;

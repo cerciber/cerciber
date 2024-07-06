@@ -22,7 +22,7 @@ export default {
   display: flex;
   justify-content: center; 
   align-items: center;
- transition: var(--transition-time);
+  transition: var(--transition-time);
   cursor: pointer;
 }
 
@@ -46,7 +46,7 @@ export default {
   mask-position: center;
   
   background: var(--degrade1);
- transition: var(--transition-time);
+  transition: var(--color-transition-time);
 
   mask-image: url('~@/user_interface/assets/LogoMask.webp');
 }
@@ -54,5 +54,11 @@ export default {
 .logo-text {
   position: absolute;
   width: 130px;
+}
+
+@media only screen and (max-width: 900px) {
+  .logo {
+    cursor: default;
+  }
 }
 </style>

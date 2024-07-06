@@ -83,8 +83,9 @@ export default {
   --white-back: #f3f2f2;
 
   --transition-time: 0.3s;
+  --color-transition-time: 3s;
 
-  animation: colorTransition 50s infinite;
+  animation: colorTransition 60s infinite;
 
 }
 
@@ -192,6 +193,28 @@ export default {
     transform: translateY(0);
   }
 }
+
+
+@keyframes fadeOutRight {
+  0% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+}
+
+@keyframes fadeOutCenter {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 
 @keyframes fadeInRight {
   0% {

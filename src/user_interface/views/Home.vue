@@ -3,8 +3,8 @@
     <div class="home-part1">
       <section class="home-part1-section1">
         <h1>Cesar Augusto Torres Ardila</h1>
-        <h2><b>Systems and Computing Engineer</b></h2>
-        <h2><b>Web Developer</b></h2>
+        <h2><b>Systems Engineer</b></h2>
+        <h2><b>Backend Developer</b></h2>
         <br/>
         <h3>🙇🏻‍♂️ ¡Strive to be happy and live in peace with you and your community! 🤗.</h3>
         <br/>
