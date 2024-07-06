@@ -135,8 +135,8 @@ export default {
   mask-repeat: no-repeat;
   mask-position: center;
   
-  background: var(--degrade1);
-  background: linear-gradient(63deg, var(--degrade1) 0%, var(--degrade2) 70%);
+  background: var(--degrade2);
+ transition: var(--transition-time);
 
   mask-image: url('~@/user_interface/assets/Curve.webp');
   z-index: -1;
@@ -192,7 +192,7 @@ export default {
   border-radius:50%;
   -moz-border-radius:50%;
   -webkit-border-radius:50%;
-  transition: 0.3s;
+ transition: var(--transition-time);
   
 }
 

@@ -77,6 +77,9 @@ header {
   position: relative;
   height: 80px;
   min-width: 100%;
+
+  opacity: 0;
+  animation: fadeInDown 1s ease-out forwards;
 }
 
 .header-middle-block {
@@ -124,7 +127,7 @@ header {
   min-width: 0px;
   max-width: 0px;
   visibility: hidden;
-  transition: 0.3s;
+ transition: var(--transition-time);
   cursor: pointer;
 }
 
@@ -141,7 +144,7 @@ header {
   margin-left: 15px;
   margin-right: 15px;
   margin-top: 3px;
-  transition: 0.3s;
+ transition: var(--transition-time);
   cursor: pointer;
 }
 
@@ -163,7 +166,7 @@ header {
   border-radius: 10px;
   
   background: var(--degrade1);
-  background: linear-gradient(63deg, var(--degrade1) 0%, var(--degrade2) 80%);
+  transition: var(--transition-time);
 }
 
 .hamburguer-icon-cover-show {

@@ -46,6 +46,9 @@ export default {
   padding-right: 50px;
   padding-left: -50px;
   height: 100%;
+
+  opacity: 0;
+  animation: fadeInRight 1s ease-out forwards;
 }
 
 .home-part1-section1 {
@@ -57,6 +60,9 @@ export default {
   display: flex;
   width: 50%;
   height: 100%;
+
+  opacity: 0;
+  animation: fadeInLeft 1s ease-out forwards;
 }
 
 @media only screen and ((max-width: 700px) or (max-height: 600px)) {

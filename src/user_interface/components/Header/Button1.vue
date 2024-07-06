@@ -40,7 +40,7 @@ export default {
   display: flex;
   justify-content: center; 
   align-items: center;
-  transition: 0.3s;
+ transition: var(--transition-time);
   cursor: pointer;
 }
 

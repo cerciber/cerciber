@@ -32,38 +32,38 @@ export default {
 
   --green-back-bar: #18aa883b;
   --green-back-sphere: #18aa880f;
-  --green-degrade1: rgba(24,170,137,1);
-  --green-degrade2: rgba(118,199,147,1);
+  --green-degrade1: rgba(24, 170, 136, 0.7);
+  --green-degrade2: rgba(118,199,147, 0.7);
 
   --blue-back-bar: #1c5cff21;
   --blue-back-sphere: #184baa0a;
-  --blue-degrade1: #0239C2;
-  --blue-degrade2: #38B6FF;
+  --blue-degrade1: #0238c2b0;
+  --blue-degrade2: #38B6FFb0;
 
   --orange-back-bar: #aa52181e;
   --orange-back-sphere: #f076130e;
-  --orange-degrade1: #D8561D;
-  --orange-degrade2: #f5994e;
+  --orange-degrade1: #D8561Db0;
+  --orange-degrade2: #f5994eb0;
 
   --purple-back-bar: #3f18aa33;
   --purple-back-sphere: #2218aa0a;
-  --purple-degrade1: rgb(34, 24, 170);
-  --purple-degrade2: rgb(133, 118, 199);
+  --purple-degrade1: rgb(34, 24, 170, 0.7);
+  --purple-degrade2: rgb(133, 118, 199, 0.7);
 
   --red-back-bar: #aa181833;
   --red-back-sphere: #aa18180a;
-  --red-degrade1: rgb(170, 24, 24);
-  --red-degrade2: rgb(199, 118, 118);
+  --red-degrade1: rgb(170, 24, 24, 0.7);
+  --red-degrade2: rgb(199, 118, 118, 0.7);
 
   --gray-back-bar: #b1b1b133;
   --gray-back-sphere: #8b8b8b0a;
-  --gray-degrade1: rgb(172, 172, 172);
-  --gray-degrade2: rgb(204, 204, 204);
+  --gray-degrade1: rgba(93, 93, 93, 0.7);
+  --gray-degrade2: rgba(111, 111, 111, 0.7);
 
   --yellow-back-bar: #a8aa1833;
   --yellow-back-sphere: #aaa0180a;
-  --yellow-degrade1: rgb(170, 168, 24);
-  --yellow-degrade2: rgb(199, 198, 118);
+  --yellow-degrade1: rgba(121, 119, 16, 0.7);
+  --yellow-degrade2: rgba(197, 194, 68, 0.7);
 
   /* General colors */
   --back-bar: var(--green-back-bar);
@@ -76,12 +76,152 @@ export default {
   --degrade3: var(--green-degrade1);
   --degrade4: var(--green-degrade2);
 
-  --button-back-1: #313E50;
+  --button-back-1: #313e50d7;
   --gray-back-1: #313e5048;
   --text-1: #ffffff;
-  --text-2: #313E50;
+  --text-2: #313e50f4;
   --white-back: #f3f2f2;
 
+  --transition-time: 0.3s;
+
+  animation: colorTransition 50s infinite;
+
+}
+
+@keyframes colorTransition {
+  0% {
+    --back-bar: var(--green-back-bar);
+    --back-sphere: var(--green-back-sphere);
+    --degrade1: var(--green-degrade1);
+    --degrade2: var(--green-degrade2);
+    --back-bar2: var(--green-back-bar);
+    --back-sphere2: var(--green-back-sphere);
+    --degrade3: var(--green-degrade1);
+    --degrade4: var(--green-degrade2);
+  }
+  14.28% {
+    --back-bar: var(--blue-back-bar);
+    --back-sphere: var(--blue-back-sphere);
+    --degrade1: var(--blue-degrade1);
+    --degrade2: var(--blue-degrade2);
+    --back-bar2: var(--blue-back-bar);
+    --back-sphere2: var(--blue-back-sphere);
+    --degrade3: var(--blue-degrade1);
+    --degrade4: var(--blue-degrade2);
+  }
+  28.57% {
+    --back-bar: var(--orange-back-bar);
+    --back-sphere: var(--orange-back-sphere);
+    --degrade1: var(--orange-degrade1);
+    --degrade2: var(--orange-degrade2);
+    --back-bar2: var(--orange-back-bar);
+    --back-sphere2: var(--orange-back-sphere);
+    --degrade3: var(--orange-degrade1);
+    --degrade4: var(--orange-degrade2);
+  }
+  42.85% {
+    --back-bar: var(--purple-back-bar);
+    --back-sphere: var(--purple-back-sphere);
+    --degrade1: var(--purple-degrade1);
+    --degrade2: var(--purple-degrade2);
+    --back-bar2: var(--purple-back-bar);
+    --back-sphere2: var(--purple-back-sphere);
+    --degrade3: var(--purple-degrade1);
+    --degrade4: var(--purple-degrade2);
+  }
+  57.14% {
+    --back-bar: var(--red-back-bar);
+    --back-sphere: var(--red-back-sphere);
+    --degrade1: var(--red-degrade1);
+    --degrade2: var(--red-degrade2);
+    --back-bar2: var(--red-back-bar);
+    --back-sphere2: var(--red-back-sphere);
+    --degrade3: var(--red-degrade1);
+    --degrade4: var(--red-degrade2);
+  }
+  71.42% {
+    --back-bar: var(--gray-back-bar);
+    --back-sphere: var(--gray-back-sphere);
+    --degrade1: var(--gray-degrade1);
+    --degrade2: var(--gray-degrade2);
+    --back-bar2: var(--gray-back-bar);
+    --back-sphere2: var(--gray-back-sphere);
+    --degrade3: var(--gray-degrade1);
+    --degrade4: var(--gray-degrade2);
+  }
+  85.71% {
+    --back-bar: var(--yellow-back-bar);
+    --back-sphere: var(--yellow-back-sphere);
+    --degrade1: var(--yellow-degrade1);
+    --degrade2: var(--yellow-degrade2);
+    --back-bar2: var(--yellow-back-bar);
+    --back-sphere2: var(--yellow-back-sphere);
+    --degrade3: var(--yellow-degrade1);
+    --degrade4: var(--yellow-degrade2);
+  }
+  100% {
+    --back-bar: var(--green-back-bar);
+    --back-sphere: var(--green-back-sphere);
+    --degrade1: var(--green-degrade1);
+    --degrade2: var(--green-degrade2);
+    --back-bar2: var(--green-back-bar);
+    --back-sphere2: var(--green-back-sphere);
+    --degrade3: var(--green-degrade1);
+    --degrade4: var(--green-degrade2);
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInCenter {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 body {

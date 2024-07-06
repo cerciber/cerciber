@@ -106,6 +106,9 @@ export default {
   align-items: center;
   width: 50%;
   height: 100%;
+
+  opacity: 0;
+  animation: fadeInRight 1s ease-out forwards;
 }
 
 .contactme-part1-section1 {
@@ -127,6 +130,9 @@ export default {
   align-items: center;
   width: 50%;
   height: 100%;
+
+  opacity: 0;
+  animation: fadeInLeft 1s ease-out forwards;
 }
 
 .contactme-shape-back-curve {
@@ -145,7 +151,7 @@ export default {
   mask-position: center;
   
   background: var(--degrade1);
-  background: linear-gradient(63deg, var(--degrade1) 0%, var(--degrade2) 70%);
+ transition: var(--transition-time);
 
   mask-image: url('~@/user_interface/assets/Curve.webp');
   z-index: -1;
@@ -154,6 +160,9 @@ export default {
   shape-image-threshold: 0.5;
   shape-margin: 20px;
   float: left;
+
+  opacity: 0;
+  animation: fadeInCenter 1s ease-out forwards;
 }
 
 .contactme-part2-form {

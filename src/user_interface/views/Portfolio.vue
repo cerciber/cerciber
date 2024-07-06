@@ -381,6 +381,9 @@ export default {
   align-items: center;
   width: 50%;
   height: 100%;
+
+  opacity: 0;
+  animation: fadeInRight 1s ease-out forwards;
 }
 
 .portfolio-part1-section1 {
@@ -402,6 +405,9 @@ export default {
   align-items: center;
   width: 50%;
   height: 100%;
+
+  opacity: 0;
+  animation: fadeInLeft 1s ease-out forwards;
 }
 
 .portfolio-part2-section1 {
@@ -449,8 +455,8 @@ export default {
   mask-repeat: no-repeat;
   mask-position: center;
   
-  background: var(--degrade1);
-  background: linear-gradient(63deg, var(--degrade1) 0%, var(--degrade2) 70%);
+  background: var(--degrade2);
+ transition: var(--transition-time);
 
   mask-image: url('~@/user_interface/assets/Curve.webp');
   z-index: -1;

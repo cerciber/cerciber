@@ -45,7 +45,7 @@ export default {
   mask-position: center;
 
   background: var(--degrade1);
-  background: linear-gradient(63deg, var(--degrade1) 0%, var(--degrade2) 70%);
+ transition: var(--transition-time);
 }
 
 .external-link-linkedin {

@@ -61,6 +61,9 @@ footer {
   width: 100%;
   background-color: var(--back-bar);
   z-index: -1;
+
+  opacity: 0;
+  animation: fadeInUp 1s ease-out forwards;
 }
 
 .footer-items {
@@ -77,7 +80,7 @@ footer {
   padding: 0px;
   margin-top: -8px;
   margin-left: 10px;
-  transition: 0.3s;
+  transition: var(--transition-time);
   cursor: pointer;
 }
 

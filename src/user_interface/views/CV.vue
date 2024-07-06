@@ -24,5 +24,8 @@ export default {
   height: calc(100% - 175px);
   overflow: scroll;
   background-color: var(--gray-back-1);
+
+  opacity: 0;
+  animation: fadeInCenter 1s ease-out forwards;
 }
 </style>

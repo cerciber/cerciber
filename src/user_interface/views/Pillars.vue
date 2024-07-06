@@ -48,6 +48,9 @@ export default {
   width: 100%;
   height: 100%;
   overflow: scroll;
+
+  opacity: 0;
+  animation: fadeInUp 1s ease-out forwards;
 }
 
 .pillars-content {
@@ -69,7 +72,7 @@ export default {
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   min-width: calc(100% - 300px);
-  transition: 0.3s;
+ transition: var(--transition-time);
 }
 
 .pillars-content-item:hover {
@@ -82,7 +85,7 @@ export default {
   align-items: center;
   font-size: 80px;
   margin-top: -50px;
-  transition: 0.3s;
+ transition: var(--transition-time);
 }
 
 .pillars-content-item-icon:hover {
@@ -105,7 +108,7 @@ export default {
   mask-position: center;
   
   background: var(--degrade1);
-  background: linear-gradient(63deg, var(--degrade1) 0%, var(--degrade2) 70%);
+ transition: var(--transition-time);
 
   mask-image: url('~@/user_interface/assets/Curve.webp');
   z-index: -1;
