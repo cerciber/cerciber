@@ -141,10 +141,12 @@ export default {
   padding-right: 20px;
   border-radius: 50px;
   border:5px solid var(--degrade3); 
+  transition: var(--color-transition-time);
 }
 
 .photo-shape-picture-title h1 {
   color: var(--degrade3);
+  transition: var(--color-transition-time);
 }
 
 </style>

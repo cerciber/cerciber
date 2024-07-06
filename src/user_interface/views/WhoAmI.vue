@@ -59,6 +59,7 @@ export default {
   max-height: calc(100% - 300px);
   background-color: white;
   border: 3px solid var(--degrade3);    
+  transition: var(--color-transition-time);
   border-radius: 10px;
   overflow: auto;
   text-align: center;

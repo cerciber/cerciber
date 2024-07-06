@@ -395,6 +395,7 @@ export default {
   line-height : 35px;
   background-color: white;
   border: 3px solid var(--degrade3);    
+  transition: var(--color-transition-time);
   border-radius: 20px;
 }
 
@@ -420,6 +421,7 @@ export default {
   line-height : 35px;
   background-color: white;
   border: 3px solid var(--degrade3);    
+  transition: var(--color-transition-time);
   border-radius: 10px; 
   max-height: 250px;
   overflow: scroll;
@@ -435,6 +437,7 @@ export default {
   line-height : 35px;
   background-color: white;
   border: 3px solid var(--degrade3);    
+  transition: var(--color-transition-time);
   border-radius: 10px; 
   max-height: 250px;
   overflow: scroll;

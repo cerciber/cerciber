@@ -120,7 +120,8 @@ export default {
   margin-right: 50px;
   line-height : 35px;
   background-color: white;
-  border: 3px solid var(--degrade3);    
+  border: 3px solid var(--degrade3);   
+  transition: var(--color-transition-time); 
   border-radius: 20px;
 }
 

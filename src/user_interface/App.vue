@@ -346,15 +346,18 @@ p, li {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: var(--degrade3); 
+  transition: var(--color-transition-time);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: var(--degrade3); 
+  transition: var(--color-transition-time);
 }
 
 ::-webkit-scrollbar-corner {
   background: var(--degrade3); 
+  transition: var(--color-transition-time);
 }
 
 </style>
