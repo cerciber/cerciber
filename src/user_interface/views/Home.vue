@@ -73,6 +73,7 @@ export default {
 
   .home-part2 {
     visibility: hidden;
+    animation: fadeOutRight 0s ease-out forwards;
   }
 }
 

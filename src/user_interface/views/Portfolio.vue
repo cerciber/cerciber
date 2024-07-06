@@ -1,32 +1,7 @@
 <template>
   <div class="portfolio-content">
     <div class="portfolio portfolio-first">
-      <div class="portfolio-part1">
-        <PhotoShapeRelative pathImage = "portfolio-multimedia/main-bookxm.webp" :disableBack="true" title="BookXM" 
-        :images="[
-          'portfolio-multimedia/main-bookxm.webp',
-          'portfolio-multimedia/collage-bookxm.webp'
-        ]"
-      ></PhotoShapeRelative>
-      </div>
-      <div class="portfolio-part2">
-        <section class="portfolio-part2-section1">
-          <article>
-            <h3><b>BookXM (MarketXM)</b></h3>
-            <p>Creation of a platform for the management of financial credits of different types in a parametric way.</p>
-            <ul class="description-lu">
-                <li>Creation of functionalities in <b>Node.js</b> with <b>Javascript</b> and <b>Typescript</b>.</li>
-                <li>Management of <b>Prisma ORM</b> with <b>PostgreSQL</b>.</li>
-                <li>Development of <b>SPA</b> in <b>React.js</b>.</li>
-                <li>Implementation of <b>API-REST</b> and <b>Microservices</b> system using <b>Clean Architecture</b> and <b>Event-Driven Architecture</b> with <b>Kafka</b>.</li>
-                <li>Implementation of authentication and authorization mechanisms with <b>JWT</b>.</li>
-                <li>Configuration of <b>AWS</b> services such as: <b>IAM, S3, API Gateway, Lambda and Cloud Watch</b>. </li>
-            </ul>
-          </article>
-        </section>
-      </div>
-      <div class="portfolio-shape-back-curve">
-      </div>
+      
     </div>
 
     <div class="portfolio">
@@ -366,7 +341,7 @@ export default {
   justify-content: center; 
   align-items: center;
   width: 100%;
-  height: 800px;
+  height: 750px;
   margin-top: -250px;
 }
 
@@ -377,7 +352,7 @@ export default {
 .portfolio-part1 {
   display: flex;
   justify-content: right; 
-  padding-right: 50px;
+  padding-right: 100px;
   align-items: center;
   width: 50%;
   height: 100%;

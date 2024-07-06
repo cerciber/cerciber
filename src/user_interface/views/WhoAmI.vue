@@ -74,7 +74,7 @@ export default {
   animation: fadeInLeft 1s ease-out forwards;
 }
 
-@media only screen and ((max-width: 700px) or (max-height: 600px)) {
+@media only screen and ((max-width: 1000px) or (max-height: 600px)) {
   .whoami-part1 {
     min-width: 100%;
     max-width: 100%;
@@ -82,6 +82,7 @@ export default {
 
   .whoami-part2 {
     visibility: hidden;
+    animation: fadeOutRight 0s ease-out forwards;
   }
 }
 </style>

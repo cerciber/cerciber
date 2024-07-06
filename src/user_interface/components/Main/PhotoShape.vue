@@ -71,6 +71,7 @@ export default {
   width: 50%;
   width: 50%;
   height: 100%;
+  transform: translateX(100px);
 }
 .photo-shape-picture-external-shpere {
   position: absolute;
