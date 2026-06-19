@@ -6,12 +6,6 @@
 
 🙇🏻‍♂️ Strive to be happy and live peacefully with you and your community!! 🤗. 
 
-**Webpage:** [cerciber.com](https://cerciber.com/)
-
 **LinkedIn:** [linkedin.com/in/cerciber](https://www.linkedin.com/in/cerciber/)
-
-**TikTok:** [tiktok.com/@cerciber](https://www.tiktok.com/@cerciber)
-
-**Twitter:** [twitter.com/cerciber](https://twitter.com/cerciber)
 
 **Email:** [cerciber@hotmail.com](mailto:cerciber@hotmail.com)
